@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>still testing</title>
+	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/style/style.css">
+</head>
+
+<body>
+	<div id="wrapper" class="white">
+		{{ partial "header" . }}
+
+		<div class="perex">
+			<h2 class="black">{{ .Title }}</h2>
+			{{ .Content }}
+		</div>
+
+		<div class="gallery">
+			{{ $fileName := .File.TranslationBaseName}}
+			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
+				<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
+			{{ end }}
+		</div>
+	</div>
+</body>
