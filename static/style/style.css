@@ -296,7 +296,7 @@ a:not([class]):hover {
 #cv {
 	display: block;
 	box-sizing: border-box;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto 0 auto;
 	padding-bottom: 30vh;
 }
@@ -306,7 +306,7 @@ a:not([class]):hover {
 }
 
 #cv ul, #cv li, #cv h2 {
-	font-size: 1.1vw;
+	font-size: calc(14px + 0.3vw);
 	line-height: 1.7em;
 }
 
