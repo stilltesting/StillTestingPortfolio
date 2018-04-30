@@ -1,6 +1,6 @@
 ---
 title: "Knihovníci jako designéři"
-projectType: "publikace"
+keywords: "publikace"
 class: "portfolio"
 draft: false
 index: 2
