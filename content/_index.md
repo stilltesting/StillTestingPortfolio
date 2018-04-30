@@ -1,4 +1,5 @@
 ---
-title: "_Index"
+title: "Index"
 draft: false
+layout: "list"
 ---
