@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #222222;
+}
+
+#description {
+	width: 300px;
+	min-height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 200;
+}
+
+#map {
+	width: 100%;
+	height: 1080px;
+	background: none;
+}
+
+.leaflet-top .leaflet-left {
+	margin-left: 300px;
+}
+
+.content {
+	width: 270px;
+	margin: 15px;
+}
+
+.logo{
+	width: 270px;
+	height: 68px;
+	background: url('../img/cityvizLogo.png') no-repeat top left;
+	margin-bottom: 18px;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: left;
+	font-size: 42px;
+	display: none;
+}
+
+h2 {
+	margin-bottom: 12px;
+}
+
+h3.leaflet-popup-pane {
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 10pt;
+}
+
+ul {
+	font-size: 10pt;
+	padding-left: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.legend {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+}
+
+#geocodeinput {
+	border: 1px solid #222222;
+	width: 262px;
+	height: 29px;
+	padding: 3px;
+	font-size: 14pt;
+}
+
+#geocodebutton {
+	border: none;
+	width: 270px;
+	height: 35px;
+	color: white;
+	background-color: #222222;
+	font-size: 12pt;
+	font-weight: bold;
+	
+	margin-top: 5px;
+	margin-bottom: 12px;
+}
+
+#geocodebutton:hover {
+	background-color: black;
+}
+
+.food {
+	background: #FD7400;
+}
+
+.university {
+	background: #1F8A70;
+}
+
+.art {
+	background: #AB124E;
+}
+
+.nightlife {
+	background: #FFE11A;
+}
+
+.outdoors {
+	background: #85CC2F;
+}
+
+#showDescriptionButton {
+	width: 50px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: white url('../img/arrow.png') no-repeat center left;
+	z-index: 200;
+	opacity:0.3;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+
+
+#showDescriptionButton:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
