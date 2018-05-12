@@ -3,7 +3,7 @@ title: "Úvod do informační vědy"
 projecttype: "publikace"
 class: "portfolio"
 draft: false
-index: 3
+index: 13
 ---
 
 

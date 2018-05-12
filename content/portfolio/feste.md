@@ -3,7 +3,7 @@ title: "divadlo Feste"
 projecttype: "plakáty"
 class: "portfolio"
 draft: false
-index: 5
+index: 10
 layout: "single.2col"
 bgcolor: "#333333"
 ---

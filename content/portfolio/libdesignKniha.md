@@ -3,7 +3,7 @@ title: "Knihovníci jako designéři"
 projecttype: "publikace"
 class: "portfolio"
 draft: false
-index: 2
+index: 12
 ---
 
 
