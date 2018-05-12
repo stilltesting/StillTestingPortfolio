@@ -271,6 +271,10 @@ a:not([class]):hover {
 	width: 100%;
 }
 
+.gallery.twoCol img {
+	width: 50%;
+}
+
 /**CONTACT**/
 
 #contact {
