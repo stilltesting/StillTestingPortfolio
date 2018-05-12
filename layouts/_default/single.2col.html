@@ -16,7 +16,7 @@
 		</div>
 
 		{{ $bgcolor := .Params.bgcolor }}
-		
+
 		<div class="gallery twoCol" style="background-color: {{ $bgcolor }}">
 			{{ $fileName := .File.TranslationBaseName }}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
@@ -27,6 +27,7 @@
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
 				{{ end }}
 			{{ end }}
+			<div style="clear: both;"></div>
 		</div>
 	</div>
 </body>
