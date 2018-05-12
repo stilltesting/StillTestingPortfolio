@@ -16,15 +16,14 @@
 		</div>
 
 		<div class="gallery twoCol">
-			{{ $fileName := .File.TranslationBaseName}}
+			{{ $fileName := .File.TranslationBaseName }}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
-				{{ $imageExt := index (split .Name ".") 1 }}
+				{{ $imageExt := index (split .Name ".") 2 }}
 				{{ if eq $imageExt "gif" }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" class="gif">
 				{{ else }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
 				{{ end }}
-				}
 			{{ end }}
 		</div>
 	</div>
