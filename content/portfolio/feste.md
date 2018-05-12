@@ -5,6 +5,7 @@ class: "portfolio"
 draft: false
 index: 5
 layout: "single.2col"
+bgcolor: "#333333"
 ---
 
 

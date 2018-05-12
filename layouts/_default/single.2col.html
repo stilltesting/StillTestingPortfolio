@@ -20,7 +20,7 @@
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
 				{{ $imageExt := index (split .Name ".") 2 }}
 				{{ if eq $imageExt "gif" }}
-					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" class="gif">
+					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" class="gif" style="background-color: {{ .Params.bgcolor }}">
 				{{ else }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
 				{{ end }}
