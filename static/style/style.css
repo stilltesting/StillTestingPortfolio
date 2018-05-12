@@ -276,6 +276,12 @@ a:not([class]):hover {
 	width: 50%;
 }
 
+.gallery.twoCol img.gif {
+	box-sizing: border-box;
+	padding: 10%;
+	width: 50%;
+}
+
 /**CONTACT**/
 
 #contact {
