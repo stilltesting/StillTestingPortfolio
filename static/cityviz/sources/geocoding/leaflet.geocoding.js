@@ -1,7 +1,7 @@
-/*! Copyright (c) 2013 Oleg Smith (http://olegsmith.com)
+/*! Copyright (c) 2013 Oleg Smith (https://olegsmith.com)
  *  Licensed under the MIT License.
  *
- *  L.RuCadastreIdentify uses jQuery for JSONP requests (http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js)
+ *  L.RuCadastreIdentify uses jQuery for JSONP requests (https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js)
  */
 
 /*
@@ -146,7 +146,7 @@ L.Geocoding = L.Control.extend({
             , cb = arg.cb;
 
         $.ajax({
-            url : 'http://dev.virtualearth.net/REST/v1/Locations'
+            url : 'https://dev.virtualearth.net/REST/v1/Locations'
             , dataType : 'jsonp'
             , jsonp : 'jsonp'
             , data : {
@@ -173,7 +173,7 @@ L.Geocoding = L.Control.extend({
             , cb = arg.cb;
 
         $.ajax({
-            url : 'http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/find'
+            url : 'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/find'
             , dataType : 'jsonp'
             , data : {
                 'text' : query
@@ -199,7 +199,7 @@ L.Geocoding = L.Control.extend({
             , cb = arg.cb;
 
         $.ajax({
-            url : 'http://ws.geonames.org/searchJSON'
+            url : 'https://ws.geonames.org/searchJSON'
             , dataType : 'jsonp'
             , data : {
                 'q' : query
@@ -226,7 +226,7 @@ L.Geocoding = L.Control.extend({
             , cb = arg.cb;
 
         $.ajax({
-            url : 'http://www.mapquestapi.com/geocoding/v1/address'
+            url : 'https://www.mapquestapi.com/geocoding/v1/address'
             , dataType : 'jsonp'
             , data : {
                 'location' : query
@@ -255,7 +255,7 @@ L.Geocoding = L.Control.extend({
             , cb = arg.cb;
 
         $.ajax({
-            url : 'http://geo.nlp.nokia.com/search/6.2/geocode.json'
+            url : 'https://geo.nlp.nokia.com/search/6.2/geocode.json'
             , dataType : 'jsonp'
             , jsonp : 'jsoncallback'
             , data : {
@@ -280,9 +280,9 @@ L.Geocoding = L.Control.extend({
         var that = this
             , query = arg.query
             , cb = arg.cb;
-        // http://api.yandex.ru/maps/doc/geocoder/desc/concepts/input_params.xml
+        // https://api.yandex.ru/maps/doc/geocoder/desc/concepts/input_params.xml
         $.ajax({
-            url : 'http://geocode-maps.yandex.ru/1.x/'
+            url : 'https://geocode-maps.yandex.ru/1.x/'
             , dataType : 'jsonp'
             , data : {
                 'geocode' : query
@@ -326,7 +326,7 @@ L.Geocoding = L.Control.extend({
         if (cadparts.length==4) {
             ajaxtype='find';
             ajaxopt = {
-                url : 'http://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/exts/GKNServiceExtension/online/parcel/find'
+                url : 'https://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/exts/GKNServiceExtension/online/parcel/find'
                 , dataType : 'jsonp'
                 , data : {
                     'f' : 'json'
@@ -347,7 +347,7 @@ L.Geocoding = L.Control.extend({
             }
 
             ajaxopt = {
-                url : 'http://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/'+zoom+'/query'
+                url : 'https://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/'+zoom+'/query'
                 , dataType : 'jsonp'
                 , data : {
                     'f' : 'json'
