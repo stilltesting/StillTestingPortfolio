@@ -4,6 +4,7 @@ projecttype: "karty"
 class: "portfolio"
 draft: false
 index: 6
+bgcolor: "#b3ffd0"
 ---
 
 

@@ -4,6 +4,7 @@ projecttype: "publikace"
 class: "portfolio"
 draft: false
 index: 2
+bgcolor: "#b3ffd0"
 ---
 
 

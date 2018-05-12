@@ -15,7 +15,9 @@
 			{{ .Content }}
 		</div>
 
-		<div class="gallery">
+		{{ $bgcolor := .Params.bgcolor }}
+
+		<div class="gallery" style="background-color: {{ $bgcolor }}">
 			{{ $fileName := .File.TranslationBaseName}}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
 				<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">

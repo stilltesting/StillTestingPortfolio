@@ -4,6 +4,7 @@ projecttype: "obálka knihy"
 class: "portfolio"
 draft: false
 index: 4
+bgcolor: "#6e00a1"
 ---
 
 
