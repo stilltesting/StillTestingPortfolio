@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         
-        <title>varCircle</title>
+        <title>varClock</title>
 
         <link rel="stylesheet" href="css/varClock.css">
     </head>
@@ -18,14 +18,14 @@
 
         <script>
             function updateTime() {
-                var date = new Date();
-                var hours = date.getHours().toString();
-                var minutes = date.getMinutes().toString();
+                date = new Date();
+                hours = date.getHours().toString();
+                minutes = date.getMinutes().toString();
 
-                var hou = hours.charAt(0);
-                var rs = hours.charAt(1);
-                var min = minutes.charAt(0);
-                var utes = minutes.charAt(1);
+                hou = hours.charAt(0);
+                rs = hours.charAt(1);
+                min = minutes.charAt(0);
+                utes = minutes.charAt(1);
 
                 document.getElementById("anim1").style.animationDuration = hou + "s";
                 document.getElementById("anim2").style.animationDuration = rs + "s";
