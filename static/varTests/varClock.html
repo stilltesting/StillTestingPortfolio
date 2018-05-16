@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="cs_CZ">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>varCircle</title>
+
+        <link rel="stylesheet" href="css/varClock.css">
+    </head>
+    <body>
+        <div id="wrap">
+        	<h1 id="varClock"><span id="anim1">o</span><span id="anim2">o</span>:<span id="anim3">o</span><span id="anim4">o</span></h1>
+        </div>
+
+        <div id="background">
+            
+        </div>
+
+        <script>
+            function updateTime() {
+                var date = new Date();
+                var hours = date.getHours().toString();
+                var minutes = date.getMinutes().toString();
+
+                var hou = hours.charAt(0);
+                var rs = hours.charAt(1);
+                var min = minutes.charAt(0);
+                var utes = minutes.charAt(1);
+
+                document.getElementById("anim1").style.animationDuration = hou + "s";
+                document.getElementById("anim2").style.animationDuration = rs + "s";
+                document.getElementById("anim3").style.animationDuration = min + "s"
+                document.getElementById("anim4").style.animationDuration = utes + "s";
+
+                setTimeout(updateTime, 5000);
+            }
+
+            document.addEventListener('DOMContentLoaded', updateTime());
+        </script>
+    </body>
+</html>

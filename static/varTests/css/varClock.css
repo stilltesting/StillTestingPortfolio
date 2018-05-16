@@ -31,21 +31,13 @@ body {
 	display: block;
 }
 
-#varCircle {
+#varClock {
 	font-size: 20vw;
 	font-weight: normal;
 	padding: 0;
 	text-align: center;
 }
 
-.anim1 {
-		animation: mymove 10s infinite linear;
-}
-
-.anim2 {
-		animation: mymove 6s infinite linear;
-}
-
-.anim3 {
-		animation: mymove 7s infinite linear;
+#anim1, #anim2, #anim3, #anim4 {
+		animation: mymove infinite linear;
 }
