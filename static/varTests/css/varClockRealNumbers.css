@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "varNumbers";
+    src: url("../fonts/varNumbersGX.ttf") format("truetype");
+}
+
+body {
+	background-color: black;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	font-family: varNumbers;
+	overflow: hidden;
+}
+
+@keyframes bounce {
+    from {font-variation-settings: "wdth" 100;}
+    50% {font-variation-settings: "wdth" 1000;}
+    to {font-variation-settings: "wdth" 100;}
+}
+
+#wrap {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	display: block;
+	margin-top: -7vw;
+}
+
+#varClock {
+	font-size: 40vw;
+	font-weight: normal;
+	padding: 0;
+	text-align: center;
+}
+
+#anim1, #anim2, #anim3, #anim4 {
+		animation: bounce infinite;
+}
