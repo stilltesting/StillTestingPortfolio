@@ -17,8 +17,7 @@ body {
 
 @keyframes mymove {
     from {font-variation-settings: "wght" 100;}
-    50% {font-variation-settings: "wght" 1000;}
-    to {font-variation-settings: "wght" 100;}
+    to {font-variation-settings: "wght" 1000;}
 }
 
 #wrap {
