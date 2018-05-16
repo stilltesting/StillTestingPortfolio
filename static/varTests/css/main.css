@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "varO";
+    src: url("../fonts/varO.ttf") format("truetype");
+}
+
+body {
+	background-color: black;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	font-family: varO;
+	overflow: hidden;
+}
+
+#background {
+	position: absolute;
+	box-sizing: border-box;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	animation: mymove 5s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+#background p {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+	font-weight: normal;
+}
+
+@keyframes mymove {
+    from {font-variation-settings: "wdth" 1;}
+    to {font-variation-settings: "wdth" 1000;}
+}
+
+#wrap {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	display: block;
+}
+
+#variableO {
+	font-size: 60vh;
+	font-weight: normal;
+	padding: 0;
+	text-align: center;
+}
