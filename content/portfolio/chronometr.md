@@ -2,7 +2,7 @@
 title: "Chronometr"
 projecttype: "ukázka variabilních fontů"
 layout: "single.iframe"
-source: "varTests/varClockRealNumbers.html"
+source: "../varTests/varClockRealNumbers.html"
 draft: false
 index: 15
 bgcolor: "#000000"
