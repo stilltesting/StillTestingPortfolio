@@ -1,0 +1,24 @@
+<html lang="cs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>still testing</title>
+	<link rel="stylesheet" type="text/css" href="/style/style.css">
+</head>
+
+<body>
+	<div id="wrapper" class="white">
+		{{ partial "header" . }}
+
+		<div class="perex">
+			<h2 class="black">{{ .Title }}</h2>
+			{{ .Content }}
+		</div>
+
+		{{ $bgcolor := .Params.bgcolor }}
+
+		<iframe src="{{ .Params.source }}" class="fullscreen" style="background-color: {{ $bgcolor }}">
+		</iframe>
+	</div>
+</body>

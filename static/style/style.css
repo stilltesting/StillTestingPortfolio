@@ -282,6 +282,12 @@ a:not([class]):hover {
 	width: 50%;
 }
 
+.fullscreen {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+}
+
 /**CONTACT**/
 
 #contact {
