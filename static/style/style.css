@@ -288,6 +288,10 @@ a:not([class]):hover {
 	height: 100vh;
 }
 
+iframe.fullscreen {
+	border: none;
+}
+
 /**CONTACT**/
 
 #contact {
