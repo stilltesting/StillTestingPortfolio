@@ -14,6 +14,8 @@
 
 		{{ $bgcolor := .Params.bgcolor }}
 
+		{{ .Content }}
+
 		<iframe src="{{ .Params.source }}" class="fullscreen" style="background-color: {{ $bgcolor }}">
 		</iframe>
 	</div>
