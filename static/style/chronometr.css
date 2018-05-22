@@ -9,6 +9,10 @@
     to {font-variation-settings: "wdth" 100;}
 }
 
+#wrapper {
+	overflow: hidden;
+}
+
 #clockWrapper {
 	position: absolute;
 	width: 100%;
@@ -18,7 +22,6 @@
 	transform: translateY(-50%);
 	display: block;
 	margin-top: -4vw;
-	overflow: hidden;
 }
 
 #varClock {
