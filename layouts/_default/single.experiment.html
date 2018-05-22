@@ -12,11 +12,7 @@
 	<div id="wrapper" class="black">
 		{{ partial "header" . }}
 
-		{{ $bgcolor := .Params.bgcolor }}
-
 		{{ .Content }}
 
-		<iframe src="{{ .Params.source }}" class="fullscreen" style="background-color: {{ $bgcolor }}">
-		</iframe>
 	</div>
 </body>
