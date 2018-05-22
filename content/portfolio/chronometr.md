@@ -1,6 +1,7 @@
 ---
 title: "Chronometr"
 projecttype: "typoexperiment, variable fonts"
+class: "portfolio"
 layout: "single.experiment"
 stylesource: "chronometr.css"
 draft: false
