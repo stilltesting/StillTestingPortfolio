@@ -76,6 +76,7 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	padding: 1vw 2vw;
 	position: absolute;
+	z-index: 255;
 }
 
 #title, .menuItem {
