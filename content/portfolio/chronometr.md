@@ -8,12 +8,8 @@ index: 15
 bgcolor: "#000000"
 ---
 
-<div id="wrap">
+<div id="clockWrapper">
 	<h1 id="varClock"><span id="anim1">0</span><span id="anim2">0</span>:<span id="anim3">0</span><span id="anim4">0</span></h1>
-</div>
-
-<div id="background">
-            
 </div>
 
 <script>
