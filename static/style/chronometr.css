@@ -3,18 +3,6 @@
     src: url("../fonts/varNumbersGX.ttf") format("truetype");
 }
 
-body {
-	background-color: black;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	color: white;
-	font-family: varNumbers;
-	overflow: hidden;
-}
-
 @keyframes bounce {
     from {font-variation-settings: "wdth" 100;}
     50% {font-variation-settings: "wdth" 1000;}
@@ -37,6 +25,7 @@ body {
 	font-weight: normal;
 	padding: 0;
 	text-align: center;
+	font-family: varNumbers;
 }
 
 #anim1, #anim2, #anim3, #anim4 {
