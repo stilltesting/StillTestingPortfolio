@@ -13,7 +13,7 @@ layout: "kdoJsem"
 ## dosažené vzdělání ##
 
 * <span class="rok">2011—2014 </span>**Fakulta informatiky Masarykovy univerzity**&nbsp;— navazující magisterský program Aplikovaná informatika se specializací Grafický design, diplomová práce: Čitelnost písma, návrh písma s&nbsp;vysokou čitelností a&nbsp;rasterizace fontů (vedoucí práce: Lukáš Pevný) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_m/malek-diplomova_prace.pdf)
-* <span class="rok">2011—2014 </span>**Fakulta informatiky Masarykovy univerzity**&nbsp;— bakalářský program Aplikovaná informatika se specializací Grafický design, bakalářská práce: Rekonstrukce a&nbsp;analýza benátské antikvy Nicolase Jensona (vedoucí práce: Vítězslav Švalbach) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_b/Malek_pv_bp.pdf)
+* <span class="rok">2007—2011 </span>**Fakulta informatiky Masarykovy univerzity**&nbsp;— bakalářský program Aplikovaná informatika se specializací Grafický design, bakalářská práce: Rekonstrukce a&nbsp;analýza benátské antikvy Nicolase Jensona (vedoucí práce: Vítězslav Švalbach) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_b/Malek_pv_bp.pdf)
 
 ## pracovní zkušenosti ##
 
