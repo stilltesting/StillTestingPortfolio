@@ -207,8 +207,8 @@ a:not([class]):hover {
 }
 
 .projectName, .projectType {
-	font-size: 2vw;
-	line-height: 2.5vw;
+	font-size: 1.8vw;
+	line-height: 2.3vw;
 	display: block;
 	color: rgba(255, 255, 255, 0);;
 
@@ -219,7 +219,7 @@ a:not([class]):hover {
 }
 
 .projectName {
-	margin-top: 31vw;
+	margin-top: 30vw;
 }
 
 .projectType {
