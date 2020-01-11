@@ -388,7 +388,7 @@ iframe.fullscreen {
 		line-height: 1.8em;
 	}
 
-	.perex h2 {
+	.description h2 {
 		font-size: 18px;
 	}
 
@@ -437,8 +437,8 @@ iframe.fullscreen {
 	/**PORTFOLIO LIST**/
 
 	.portfolioItem {
-		width: 100vw;
-		height: 50vw;
+		width: 98vw;
+		height: 70vw;
 	}
 
 	.projectName {
@@ -453,6 +453,10 @@ iframe.fullscreen {
 
 	.name, .perex {
 		width: 100%;
+	}
+
+	.gallery.twoCol img {
+		width: 98vw;
 	}
 
 	/**CV**/
