@@ -151,7 +151,7 @@ a:not([class]):hover {
 #portfolioList {
 	width: 99vw;
 	margin-top: 85vh;
-	background-color: 222222;
+	margin-left: 1vw;
 }
 
 .portfolioItem {
