@@ -1,17 +1,17 @@
 @font-face {
-    font-family: KvaltGrotesk;
-    src: url(../fonts/KvaltGrotesk-Regular.woff);
+    font-family: SpaceGrotesk;
+    src: url(../fonts/SpaceGrotesk-Medium.woff);
     font-weight: Normal;
 }
 
 @font-face {
-    font-family: KvaltGrotesk;
-    src: url(../fonts/KvaltGrotesk-Bold.woff);
+    font-family: SpaceGrotesk;
+    src: url(../fonts/SpaceGrotesk-Bold.woff);
     font-weight: Bold;
 }
 
 body {
-	font-family: KvaltGrotesk;
+	font-family: SpaceGrotesk;
 	font-weight: Bold;
 
 	width: 100%;
