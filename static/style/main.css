@@ -339,7 +339,8 @@ iframe.fullscreen {
 	display: block;
 	box-sizing: border-box;
 	width: 46.5vw;
-	margin: 0 3vw 0 0
+	margin: 0 3vw 0 0;
+	float: right;
 	padding-bottom: 30vh;
 }
 
