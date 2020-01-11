@@ -73,7 +73,7 @@ a:not([class]):hover {
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
-	padding: 1vw 2vw;
+	padding: 1vw 3vw;
 	position: fixed;
 	z-index: 255;
 }
@@ -88,13 +88,13 @@ a:not([class]):hover {
 	padding: 0;
 	margin: 0;
 	float: left;
-	width: 46vw;
+	width: 46.5vw;
 }
 
 #menu {
 	float: left;
-	width: 46vw;
-	margin-left: 2vw;
+	width: 46.5vw;
+	margin-left: 1vw;
 }
 
 .menuItem {
