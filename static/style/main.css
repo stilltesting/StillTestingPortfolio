@@ -207,7 +207,8 @@ a:not([class]):hover {
 }
 
 .projectName, .projectType {
-	font-size: 1.5vw;
+	font-size: 2vw;
+	line-height: 2.5vw;
 	display: block;
 	color: rgba(255, 255, 255, 0);;
 
@@ -218,7 +219,7 @@ a:not([class]):hover {
 }
 
 .projectName {
-	margin-top: 20vw;
+	margin-top: 31vw;
 }
 
 .projectType {
@@ -354,10 +355,14 @@ iframe.fullscreen {
 	line-height: 1.7em;
 }
 
+#cv li, #cv h2 {
+	margin: 0 0 1.7em 0;
+}
+
 #cv .rok {
 	display: inline-block;
-	width: 15vw;
-	margin-left: -15vw;
+	width: 18vw;
+	margin-left: -18vw;
 	font-weight: bold;
 }
 
@@ -371,9 +376,7 @@ iframe.fullscreen {
 }
 
 #cv li ul {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	padding-left: 1.5em;
+	padding-left: 9vw;
 }
 
 @media screen and (max-width: 700px) {
