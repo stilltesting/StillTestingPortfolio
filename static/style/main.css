@@ -90,10 +90,13 @@ a:not([class]):hover {
 	padding: 0;
 	margin: 0;
 	float: left;
+	width: 46vw;
 }
 
 #menu {
-	float: right;
+	float: left
+	width: 46vw;
+	margin-left: 2vw;
 }
 
 .menuItem {
