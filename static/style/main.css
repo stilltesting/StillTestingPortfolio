@@ -252,6 +252,7 @@ a:not([class]):hover {
 	width: 96vw;
 	margin: 0 2vw 0 2vw;
 	display: block;
+	padding: 10vh 0 10vh 0;
 }
 
 .name {
