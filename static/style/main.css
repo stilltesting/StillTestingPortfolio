@@ -338,8 +338,8 @@ iframe.fullscreen {
 #cv {
 	display: block;
 	box-sizing: border-box;
-	width: 47vw;
-	margin: 0 auto 0 auto;
+	width: 46.5vw;
+	margin: 0 3vw 0 0
 	padding-bottom: 30vh;
 }
 
@@ -367,22 +367,10 @@ iframe.fullscreen {
 	padding-left: 8.5em;
 }
 
-#cv li:before {
-	content: "—";
-	display: inline-block;
-	width: 8.5em;
-	margin-left: -8.5em;
-}
-
 #cv li ul {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	padding-left: 1.5em;
-}
-
-#cv li ul li:before {
-	width: 1.5em;
-	margin-left: -1.5em;
 }
 
 @media screen and (max-width: 700px) {
