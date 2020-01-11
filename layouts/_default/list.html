@@ -19,8 +19,10 @@
 			<div class="portfolioItem">
 				<a href="{{ .URL }}" class="portfolioLink black" style="background: url(/images/portfolio/ikony/{{ .File.TranslationBaseName }}.jpg) center center no-repeat; background-size: cover;">
 					<span class="overlay">
-						<span class="projectName">{{ .Title }}</span> <br> 
-						<span class="projectType">— {{.Params.projecttype}}</span>
+						<p>
+							<span class="projectName">{{ .Title }}</span> <br /> 
+							<span class="projectType">— {{.Params.projecttype}}</span>
+						</p>
 					</span>
 				</a>
 			</div>
