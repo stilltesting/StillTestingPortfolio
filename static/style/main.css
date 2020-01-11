@@ -248,7 +248,13 @@ a:not([class]):hover {
 
 /**PORTFOLIO PAGE**/
 
-.info {
+#description {
+	width: 96vw;
+	margin: 0 2vw 0 2vw;
+	display: block;
+}
+
+.name {
 	width: 46vw;
 	float: left;
 }

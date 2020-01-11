@@ -3,25 +3,26 @@
 </head>
 
 <body>
-	<div id="wrapper" class="white">
+	<div id="description" class="white">
 		{{ partial "header" . }}
 
-		<div class="info">
+		<div class="name">
 			<h2 class="black">{{ .Title }}</h2>
 		</div>
 
 		<div class="perex">
 			{{ .Content }}
 		</div>
+		<div style="clear: both;"></div>
+	</div>
 
-		{{ $bgcolor := .Params.bgcolor }}
+	{{ $bgcolor := .Params.bgcolor }}
 
-		<div class="gallery" style="background-color: {{ $bgcolor }}">
-			{{ $fileName := .File.TranslationBaseName}}
-			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
-				<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
-			{{ end }}
-			<div style="clear: both;"></div>
-		</div>
+	<div class="gallery" style="background-color: {{ $bgcolor }}">
+		{{ $fileName := .File.TranslationBaseName}}
+		{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
+			<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
+		{{ end }}
+		<div style="clear: both;"></div>
 	</div>
 </body>
