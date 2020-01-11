@@ -451,8 +451,8 @@ iframe.fullscreen {
 
 	/**PORTFOLIO PAGE**/
 
-	.perex {
-		padding: 140px 5vw 140px 5vw;
+	.name, .perex {
+		width: 100%;
 	}
 
 	/**CV**/
