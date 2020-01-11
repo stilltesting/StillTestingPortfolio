@@ -18,7 +18,7 @@
 
 		{{ $bgcolor := .Params.bgcolor }}
 
-		<div class="gallery twoCol" style="background-color: {{ $bgcolor }}">
+		<div class="gallery twoCol">
 			{{ $fileName := .File.TranslationBaseName }}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
 				{{ $imageExt := index (split .Name ".") 2 }}

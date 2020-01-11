@@ -298,6 +298,7 @@ a:not([class]):hover {
 
 .gallery.twoCol img.gif {
 	box-sizing: border-box;
+	padding: 10%;
 	width: 46vw;
 	margin: 0 2vw 2vw 0;
 }
