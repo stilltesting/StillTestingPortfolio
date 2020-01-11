@@ -276,6 +276,7 @@ a:not([class]):hover {
 
 #description h2 {
 	font-size: 3vw;
+	line-height: 4vw;
 	margin: 0;
 }
 
@@ -287,6 +288,7 @@ a:not([class]):hover {
 .gallery img {
 	width: 100%;
 	float: left;
+	margin-bottom: 2vw;
 }
 
 .gallery.twoCol img {
