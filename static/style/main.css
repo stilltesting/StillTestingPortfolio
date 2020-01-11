@@ -276,10 +276,9 @@ a:not([class]):hover {
 	margin: 0;
 }
 
-.perex h2 {
+.description h2 {
 	display: inline-block;
 	box-sizing: border-box;
-	padding: 10px;
 }
 
 .gallery {
