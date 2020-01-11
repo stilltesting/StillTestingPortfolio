@@ -275,9 +275,9 @@ a:not([class]):hover {
 	margin: 0;
 }
 
-.description h2 {
-	display: inline-block;
-	box-sizing: border-box;
+#description h2 {
+	font-size: 3vw;
+	margin: 0;
 }
 
 .gallery {
