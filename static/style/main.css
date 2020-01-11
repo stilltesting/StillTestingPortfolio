@@ -247,15 +247,15 @@ a:not([class]):hover {
 /**PORTFOLIO PAGE**/
 
 #description {
-	width: 96vw;
-	margin: 0 2vw 0 2vw;
+	width: 94vw;
+	margin: 0 3vw 0 3vw;
 	display: block;
 	padding: 15vh 0 15vh 0;
 	font-size: 2vw;
 }
 
 .name {
-	width: 46vw;
+	width: 46.5vw;
 	float: left;
 }
 
@@ -263,8 +263,8 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	display: block;
 	float: left;
-	width: 46vw;
-	margin-left: 2vw;
+	width: 46.5vw;
+	margin-left: 1vw;
 	padding: 0;
 	font-weight: normal;
 }
@@ -281,8 +281,8 @@ a:not([class]):hover {
 }
 
 .gallery {
-	width: 96vw;
-	margin: 0 2vw 0 2vw;
+	width: 99vw;
+	margin: 0 1vw 0 0;
 }
 
 .gallery img {
@@ -292,15 +292,15 @@ a:not([class]):hover {
 }
 
 .gallery.twoCol img {
-	width: 46vw;
-	margin: 0 2vw 2vw 0;
+	width: 49vw;
+	margin: 0 1vw 1vw 0;
 }
 
 .gallery.twoCol img.gif {
 	box-sizing: border-box;
-	padding: 10%;
-	width: 46vw;
-	margin: 0 2vw 2vw 0;
+	padding: 5%;
+	width: 49vw;
+	margin: 0 1vw 1vw 0;
 }
 
 .fullscreen {
@@ -338,7 +338,7 @@ iframe.fullscreen {
 #cv {
 	display: block;
 	box-sizing: border-box;
-	width: 55%;
+	width: 47vw;
 	margin: 0 auto 0 auto;
 	padding-bottom: 30vh;
 }

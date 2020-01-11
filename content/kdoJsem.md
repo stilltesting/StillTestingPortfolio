@@ -11,8 +11,9 @@ layout: "kdoJsem"
 	<div class="perex">
 		<p>Jsem grafický designér na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem i logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. Externě spolupracuji na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU. V&nbsp; minulosti jsem se podílel na výuce vizualizace dat na Filozofické fakultě.</p>
 	</div>
+	<div style="clear: both;"></div>
 </div>
-<DIV id="cv">
+<div id="cv">
 
 ## dosažené vzdělání ##
 
