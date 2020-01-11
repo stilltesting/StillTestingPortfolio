@@ -149,15 +149,16 @@ a:not([class]):hover {
 
 /**PORTFOLIO LIST**/
 #portfolioList {
-	width: 100%;
+	width: 99vw;
 	margin-top: 85vh;
 	background-color: 222222;
 }
 
 .portfolioItem {
 	display: block;
-	width: 50vw;
-	height: 30vw;
+	width: 49vw;
+	margin-right: 1vw;
+	height: 40vw;
 	float: left;
 
 	overflow: hidden;
