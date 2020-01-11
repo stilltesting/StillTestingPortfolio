@@ -355,8 +355,9 @@ iframe.fullscreen {
 
 #cv .rok {
 	display: inline-block;
-	width: 7em;
-	margin-left: -7em;
+	width: 15vw;
+	margin-left: -15vw;
+	font-weight: bold;
 }
 
 #cv p, #cv ul, #cv li {
@@ -365,7 +366,7 @@ iframe.fullscreen {
 
 #cv ul {
 	list-style: none;
-	padding-left: 8.5em;
+	padding-left: 0;
 }
 
 #cv li ul {
