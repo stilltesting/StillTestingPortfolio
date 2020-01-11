@@ -286,9 +286,9 @@ a:not([class]):hover {
 }
 
 .gallery img {
-	width: 100%;
+	width: 98vw;
 	float: left;
-	margin-bottom: 2vw;
+	margin-bottom: 1vw;
 }
 
 .gallery.twoCol img {
