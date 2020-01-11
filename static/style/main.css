@@ -348,6 +348,7 @@ iframe.fullscreen {
 
 #cv h2 {
 	margin-top: 2em;
+	text-transform: uppercase;
 }
 
 #cv ul, #cv li, #cv h2 {
