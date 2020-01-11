@@ -9,7 +9,7 @@ layout: "kdoJsem"
 		<h2>Matěj Málek</h2>
 	</div>
 	<div class="perex">
-		<p>Jsem grafickým designérem na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem i logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. Externě spolupracuji na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU. Podílím se na výuce vizualizace dat na Filozofické fakultě a&nbsp;Fakultě sociálních studií MU.</p>
+		<p>Jsem grafický designér na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem i logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. Externě spolupracuji na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU. Podílím se na výuce vizualizace dat na Filozofické fakultě a&nbsp;Fakultě sociálních studií MU.</p>
 	</div>
 </div>
 <DIV id="cv">
