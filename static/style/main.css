@@ -383,7 +383,6 @@ iframe.fullscreen {
 	.perex p {
 		font-size: 18px;
 		line-height: 1.8em;
-		margin: 0;
 	}
 
 	#description h2 {
@@ -452,6 +451,10 @@ iframe.fullscreen {
 
 	.name, .perex {
 		width: 100%;
+	}
+
+	.perex {
+		margin-left: 0;
 	}
 
 	.name {
