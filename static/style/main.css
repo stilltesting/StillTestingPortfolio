@@ -27,8 +27,7 @@ body {
 	perspective: 10px;
 	perspective-origin: 50% 50%;
 }
-
-a:not([class]) {
+/**a:not([class]) {
 	font-weight: bold;
 	text-decoration: none;
 	padding-bottom: 0.05em;
@@ -39,7 +38,7 @@ a:not([class]) {
 a:not([class]):hover {
 	text-decoration: none;
 	border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
+}**/
 
 /**COLOR**/
 .white {
@@ -253,7 +252,7 @@ a:not([class]):hover {
 	margin: 0 2vw 0 2vw;
 	display: block;
 	padding: 15vh 0 15vh 0;
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 
 .name {
