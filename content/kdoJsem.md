@@ -4,10 +4,14 @@ draft: false
 layout: "kdoJsem"
 ---
 
-<div class="perex">
-	<h2 class="black">Mgr. Matěj Málek</h2>
-	<p>Jsem grafickým designérem na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem i logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. Externě spolupracuji na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU. Podílím se na výuce vizualizace dat na Filozofické fakultě a&nbsp;Fakultě sociálních studií MU. Nepublikuji, čtu.</p></div>
-
+<div id="descrition" class="white">
+	<div class="name">
+		<h2>Matěj Málek</h2>
+	</div>
+	<div class="perex">
+		<p>Jsem grafickým designérem na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem i logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. Externě spolupracuji na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU. Podílím se na výuce vizualizace dat na Filozofické fakultě a&nbsp;Fakultě sociálních studií MU. Nepublikuji, čtu.</p>
+	</div>
+</div>
 <DIV id="cv">
 
 ## dosažené vzdělání ##
