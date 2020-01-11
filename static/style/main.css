@@ -156,8 +156,8 @@ a:not([class]):hover {
 
 .portfolioItem {
 	display: block;
-	width: 49vw;
-	margin-right: 1vw;
+	width: 48.5vw;
+	margin: 0 1vw 1vw 0;
 	height: 40vw;
 	float: left;
 
@@ -293,14 +293,14 @@ a:not([class]):hover {
 }
 
 .gallery.twoCol img {
-	width: 49vw;
+	width: 48.5vw;
 	margin: 0 1vw 1vw 0;
 }
 
 .gallery.twoCol img.gif {
 	box-sizing: border-box;
 	padding: 5%;
-	width: 49vw;
+	width: 48.5vw;
 	margin: 0 1vw 1vw 0;
 }
 
