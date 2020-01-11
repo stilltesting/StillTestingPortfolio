@@ -79,8 +79,7 @@ a:not([class]):hover {
 }
 
 #title, .menuItem {
-	font-size: 2.5vw;
-	font-size: calc(16px + 0.5vw);
+	font-size: 2vw;
 	display: block;
 	text-decoration: none;
 }
