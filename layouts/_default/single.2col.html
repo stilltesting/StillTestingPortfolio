@@ -3,16 +3,18 @@
 </head>
 
 <body>
-	<div id="wrapper" class="white">
-		{{ partial "header" . }}
+	{{ partial "header" . }}
+	<div id="description" class="white">
 
-		<div class="info">
+		<div class="name">
 			<h2>{{ .Title }}</h2>
 		</div>
 
 		<div class="perex">
 			{{ .Content }}
 		</div>
+		<div style="clear: both;"></div>
+	</div>
 
 		{{ $bgcolor := .Params.bgcolor }}
 

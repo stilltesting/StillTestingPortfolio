@@ -280,7 +280,8 @@ a:not([class]):hover {
 }
 
 .gallery {
-	width: 100%;
+	width: 96vw;
+	margin: 0 2vw 0 2vw;
 }
 
 .gallery img {
@@ -289,13 +290,14 @@ a:not([class]):hover {
 }
 
 .gallery.twoCol img {
-	width: 50%;
+	width: 46vw;
+	margin: 0 2vw 2vw 0;
 }
 
 .gallery.twoCol img.gif {
 	box-sizing: border-box;
-	padding: 10%;
-	width: 50%;
+	width: 46vw;
+	margin: 0 2vw 2vw 0;
 }
 
 .fullscreen {
