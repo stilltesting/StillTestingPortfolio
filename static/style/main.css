@@ -386,24 +386,12 @@ iframe.fullscreen {
 	}
 
 	/**HEADER**/
-	#header {
-		text-align: center;
-	}
-
-	#title {
-		width: 100%;
-		text-align: center;
-		padding: 10px 0 10px 0;
-	}
-
-	#menu {
-		width: 100%;
-	}
 
 	.menuItem {
-		width: 30.3%;
-		margin: 0 1.5% 0 1.5%;
+		width: 100%;
+		margin: 0;
 		padding: 0;
+		float: left;
 	}
 
 
