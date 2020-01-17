@@ -134,7 +134,9 @@ a:not([class]):hover {
 	height: 95vh;
 	margin: 0;
 	padding: 0;
-	background: url(../images/cover/cover.jpg) center center no-repeat cover fixed;
+	background: url(../images/cover/cover.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 /**SUBHEADING**/
