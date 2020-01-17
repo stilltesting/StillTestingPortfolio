@@ -132,6 +132,10 @@ a:not([class]):hover {
 #cover {
 	width: 100vw;
 	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	margin: 0;
 	padding: 0;
 	background: url(../images/cover/cover.jpg) center center no-repeat;
@@ -141,7 +145,7 @@ a:not([class]):hover {
 
 /**SUBHEADING**/
 #subheading {
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 .arrow {
@@ -154,7 +158,7 @@ a:not([class]):hover {
 /**PORTFOLIO LIST**/
 #portfolioList {
 	width: 99vw;
-	margin-top: 85vh;
+	margin-top: 0;
 	margin-left: 1vw;
 }
 
