@@ -146,6 +146,9 @@ a:not([class]):hover {
 /**SUBHEADING**/
 #subheading {
 	font-size: 3vw;
+	line-height: 4vw;
+	text-align: center;
+	color: white;
 }
 
 .arrow {
@@ -157,9 +160,10 @@ a:not([class]):hover {
 
 /**PORTFOLIO LIST**/
 #portfolioList {
-	width: 99vw;
-	margin-top: 0;
-	margin-left: 1vw;
+	width: 100vw;
+	box-sizing: border-box;
+	padding-top: 1vw;
+	padding-left: 1vw;
 }
 
 .portfolioItem {
