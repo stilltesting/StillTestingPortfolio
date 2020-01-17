@@ -2,17 +2,11 @@
 
 </head>
 
-<body>
-	<div id="wrapper" class="white">
-		{{ partial "header" . }}
-
-		{{ range $index, $num := (seq 20) }}
-			<img src="/images/perspective/text.outline.svg" class="perspective" style="transform: translateZ(-{{ sub 15 $index }}px) scale({{ add 1 (mul (sub 15 $index) 0.1) }}); padding-top: {{ mul 0.5 (sub 15 $index) }}vw; padding-left: {{ mul 0.5 (sub 15 $index) }}vw;">
-		{{ end }}
-
-		<img src="/images/perspective/text.black.svg" id="L0" class="perspective">
-
-		<h2 id="subheading">grafický design <img src="/images/perspective/leftRightArrow.svg" class="arrow"> typografie</h2>
+<body class="white">
+	{{ partial "header" . }}
+	<div id="cover" >
+		<h2 id="subheading">grafický design <br />+ typografie</h2>
+	</div>
 
 		<div id="portfolioList">
 			{{ range sort (where .Site.Pages ".Params.class" "portfolio") ".Params.index" "desc" }}
