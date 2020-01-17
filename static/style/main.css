@@ -138,7 +138,7 @@ a:not([class]):hover {
 
 	margin: 0;
 	padding: 0;
-	background: url(../images/cover/cover.png) center center no-repeat;
+	background: url(../images/cover/cover.gif) center center no-repeat;
 	background-color: #4000ff;
 	background-attachment: fixed;
 	background-size: contain;
