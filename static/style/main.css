@@ -139,6 +139,7 @@ a:not([class]):hover {
 	margin: 0;
 	padding: 0;
 	background: url(../images/cover/cover.jpg) center center no-repeat;
+	background-color: #4000ff;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -413,10 +414,15 @@ iframe.fullscreen {
 		width: 80vw;
 	}
 
+	#cover {
+		background-size: contain;
+	}
+
 	/**SUBHEADING**/
 
 	#subheading {
-		font-size: 16px;
+		font-size: 10vw;
+		line-height: 12vw;
 	}
 
 	.arrow {
