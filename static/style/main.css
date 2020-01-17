@@ -146,8 +146,8 @@ a:not([class]):hover {
 
 /**SUBHEADING**/
 #subheading {
-	font-size: 3vw;
-	line-height: 4vw;
+	font-size: 4vw;
+	line-height: 4.5vw;
 	text-align: center;
 	color: white;
 }
