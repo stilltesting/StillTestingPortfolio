@@ -141,7 +141,7 @@ a:not([class]):hover {
 	background: url(../images/cover/cover.jpg) center center no-repeat;
 	background-color: #4000ff;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 }
 
 /**SUBHEADING**/
