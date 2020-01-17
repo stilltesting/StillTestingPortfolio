@@ -181,10 +181,10 @@ a:not([class]):hover {
     transition: all 4s ease;
 }
 
-.portfolioLink:hover {
+/**.portfolioLink:hover {
 	padding: 50px;
 	margin: -50px;
-}
+}**/
 
 .overlay {
 	display: flex;
