@@ -1,5 +1,6 @@
 ---
 title: "Inspirace úspěšného lektora"
+projectclient: "KISK FF MU"
 projecttype: "brožura"
 projectyear: "2015"
 class: "portfolio"

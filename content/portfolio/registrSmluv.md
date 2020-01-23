@@ -1,5 +1,6 @@
 ---
 title: "Encyklopedie zákona o registru smluv"
+projectclient: "Rekonstrukce státu"
 projecttype: "brožura"
 projectyear: "2015"
 class: "portfolio"

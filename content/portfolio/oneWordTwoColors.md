@@ -1,5 +1,6 @@
 ---
 title: "Projekt One Word, Two Colors"
+projectclient: "volná tvorba"
 projecttype: "typografie"
 projectyear: "2015"
 class: "portfolio"

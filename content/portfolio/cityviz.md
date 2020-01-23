@@ -1,5 +1,6 @@
 ---
 title: "CityViz"
+projectclient: "školní práce"
 projecttype: "interaktivní vizualizace"
 projectyear: "2013"
 class: "portfolio"

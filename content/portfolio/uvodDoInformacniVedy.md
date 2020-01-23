@@ -1,5 +1,6 @@
 ---
 title: "Úvod do informační vědy"
+projectclient: "KISK FF MU"
 projecttype: "kniha"
 projectyear: "2017"
 class: "portfolio"

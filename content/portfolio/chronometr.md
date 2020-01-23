@@ -1,5 +1,6 @@
 ---
 title: "Chronometr"
+projectclient: "volná tvorba"
 projecttype: "typoexperiment, variabilní fonty"
 projectyear: "2018"
 layout: "single.experiment"

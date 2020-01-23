@@ -1,5 +1,6 @@
 ---
 title: "Vzdělávejte se po svém"
+projectclient: "KISK FF MU"
 projecttype: "kniha"
 projectyear: "2014"
 class: "portfolio"

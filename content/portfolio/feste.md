@@ -1,5 +1,6 @@
 ---
 title: "divadlo Feste"
+projectclient: "divadlo Feste"
 projecttype: "plakáty"
 projectyear: "2016—2020"
 class: "portfolio"
