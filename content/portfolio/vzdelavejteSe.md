@@ -1,6 +1,6 @@
 ---
 title: "Vzdělávejte se po svém"
-projecttype: "publikace"
+projecttype: "kniha"
 projectyear: "2014"
 class: "portfolio"
 draft: false
