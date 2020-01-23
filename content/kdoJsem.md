@@ -9,7 +9,7 @@ layout: "kdoJsem"
 		<h2>Matěj Málek</h2>
 	</div>
 	<div class="perex">
-		<p>Jsem grafický designér na volné noze a&nbsp;doktorský student Fakulty multimediálních komunikací na Univerzitě Tomáše Bati ve Zlíně. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem též logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě.</p>
+		<p>Jsem grafický designér na volné noze a&nbsp;doktorský student v&nbsp;Ateliéru grafického designu na Fakultě multimediálních komunikací na Univerzitě Tomáše Bati ve Zlíně. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem též logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a okrajově i&nbsp;webům. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
 	</div>
 	<div style="clear: both;"></div>
 </div>
