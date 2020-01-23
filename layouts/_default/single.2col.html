@@ -6,8 +6,11 @@
 	{{ partial "header" . }}
 	<div id="description" class="white">
 
-		<div class="name">
-			<h2>{{ .Title }}</h2>
+		<div class="bio">
+			<h2 id="projectName">{{ .Title }}</h2>
+
+			<h3 id="projectType">{{.Params.projecttype}}</h3>
+			<h3 id="projectYear">{{.Params.projectyear}}</h3>
 		</div>
 
 		<div class="perex">

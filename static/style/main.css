@@ -12,7 +12,6 @@
 
 body {
 	font-family: SpaceGrotesk;
-	font-weight: Bold;
 
 	width: 100%;
 	margin: 0;
@@ -82,6 +81,7 @@ a:not([class]):hover {
 	font-size: 2vw;
 	display: block;
 	text-decoration: none;
+	font-weight: Bold;
 }
 
 #title {
@@ -270,6 +270,17 @@ a:not([class]):hover {
 .bio {
 	width: 46.5vw;
 	float: left;
+}
+
+.bio h2 {
+	margin-bottom: 3vw;
+}
+
+.bio h3 {
+	font-size: 2vw;
+	line-height: 3vw;
+	margin: 0;
+	padding: 0;
 }
 
 .perex {
