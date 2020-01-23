@@ -261,7 +261,8 @@ a:not([class]):hover {
 #description {
 	width: 94vw;
 	margin: 0 3vw 0 3vw;
-	display: block;
+	display: flex;
+	align-items: baseline;
 	padding: 200px 0 200px 0;
 	font-size: 2vw;
 }
