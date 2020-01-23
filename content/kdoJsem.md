@@ -5,7 +5,7 @@ layout: "kdoJsem"
 ---
 
 <div id="description" class="white">
-	<div class="name">
+	<div class="bio">
 		<h2>Matěj Málek</h2>
 	</div>
 	<div class="perex">
