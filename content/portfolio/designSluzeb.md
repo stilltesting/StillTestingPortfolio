@@ -10,4 +10,4 @@ bgcolor: "#ffd800"
 ---
 
 
-Kompletní grafická úprava knihy. Kniha je spíše populárního ražení a měla představit čtenáři u nás v té době ještě téměř neznámý design služeb na několika pěkných případových studiích. Povaze knihy odpovídají nároky na grafickou úpravu, která je o něco hravější, pracuje se symbolem stylizované komiksové bubliny, která se střídavě mění v otazník a ikonku příchozí zprávy, když kniha v některých částech sklouzne k dialogu se čtenářem.
+Kompletní grafická úprava knihy. Kniha je spíše populárního ražení a&nbsp;měla představit čtenáři u&nbsp;nás v&nbsp;té době ještě téměř neznámý design služeb na několika pěkných případových studiích. Povaze knihy odpovídají nároky na grafickou úpravu, která je o&nbsp;něco hravější, pracuje se symbolem stylizované komiksové bubliny, která se střídavě mění v&nbsp;otazník a ikonku příchozí zprávy, když kniha v&nbsp;ěkterých částech sklouzne k&nbsp;dialogu se čtenářem.
