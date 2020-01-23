@@ -232,8 +232,8 @@ a:not([class]):hover {
     transition: all 1s ease;
 }
 
-.projectType {
-	font-weight: Normal;
+.projectName {
+	font-weight: Bold;
 }
 
 .portfolioLink:hover .projectName, .portfolioLink:hover .projectType {
@@ -455,7 +455,7 @@ iframe.fullscreen {
 
 	/**PORTFOLIO PAGE**/
 
-	.description {
+	#description {
 		flex-direction: column;	
 	}
 
