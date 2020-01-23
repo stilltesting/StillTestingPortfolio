@@ -1,6 +1,7 @@
 ---
 title: "Úvod do informační vědy"
 projecttype: "publikace"
+projectyear: "2017"
 class: "portfolio"
 draft: false
 index: 13

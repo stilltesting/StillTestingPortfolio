@@ -1,6 +1,7 @@
 ---
 title: "Karty 35 metod pro lepší služby"
 projecttype: "karty"
+projectyear: "2015"
 class: "portfolio"
 draft: false
 index: 6

@@ -1,6 +1,7 @@
 ---
 title: "CityViz"
 projecttype: "interaktivní vizualizace"
+projectyear: "2013"
 class: "portfolio"
 draft: false
 index: 1

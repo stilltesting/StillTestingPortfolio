@@ -1,6 +1,7 @@
 ---
 title: "ThinkStats: Statistika a pravděpodobnost pro programátory"
 projecttype: "obálka knihy"
+projectyear: "2014"
 class: "portfolio"
 draft: false
 index: 4

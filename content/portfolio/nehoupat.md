@@ -1,6 +1,7 @@
 ---
 title: "Nehoupat"
 projecttype: "logo + vizuální styl + web"
+projectyear: "2018"
 class: "portfolio"
 draft: false
 index: 16

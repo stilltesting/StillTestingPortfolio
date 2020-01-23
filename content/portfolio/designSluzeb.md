@@ -1,6 +1,7 @@
 ---
 title: "K čemu je design služeb"
 projecttype: "publikace"
+projectyear: "2014"
 class: "portfolio"
 draft: false
 index: 3

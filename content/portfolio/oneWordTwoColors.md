@@ -1,6 +1,7 @@
 ---
 title: "Projekt One Word, Two Colors"
 projecttype: "typografie"
+projectyear: "2015"
 class: "portfolio"
 layout: "single.2col"
 draft: false

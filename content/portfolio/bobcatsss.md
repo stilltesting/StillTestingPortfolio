@@ -1,6 +1,7 @@
 ---
 title: "Sborník konference BOBCATSSS 2015"
 projecttype: "publikace"
+projectyear: "2015"
 class: "portfolio"
 draft: false
 index: 7

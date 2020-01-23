@@ -1,6 +1,7 @@
 ---
 title: "divadlo Feste"
 projecttype: "plakáty"
+projectyear: "2016—2020"
 class: "portfolio"
 draft: false
 index: 10

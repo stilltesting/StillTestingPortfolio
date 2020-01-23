@@ -1,6 +1,7 @@
 ---
 title: "Inspirace úspěšného lektora"
 projecttype: "publikace"
+projectyear: "2015"
 class: "portfolio"
 draft: false
 index: 5

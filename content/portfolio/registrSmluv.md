@@ -1,6 +1,7 @@
 ---
 title: "Encyklopedie zákona o registru smluv"
 projecttype: "publikace"
+projectyear: "2015"
 class: "portfolio"
 draft: false
 index: 8

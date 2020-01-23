@@ -1,6 +1,7 @@
 ---
 title: "Chronometr"
-projecttype: "typoexperiment, variable fonts"
+projecttype: "typoexperiment, variabilní fonty"
+projectyear: "2018"
 layout: "single.experiment"
 stylesource: "chronometr.css"
 draft: false
