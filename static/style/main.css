@@ -402,7 +402,7 @@ iframe.fullscreen {
 	
 	/**FONT SIZE**/
 
-	#title, .menuItem, .perex p, #description h2  {
+	#title, .menuItem, .perex p, .bio h2, .bio h3  {
 		font-size: 24px;
 		line-height: 1.25em;
 	}
@@ -454,6 +454,10 @@ iframe.fullscreen {
 	}
 
 	/**PORTFOLIO PAGE**/
+
+	.description {
+		flex-direction: column;	
+	}
 
 	.bio, .perex {
 		width: 100%;
