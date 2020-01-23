@@ -23,11 +23,11 @@ layout: "kdoJsem"
 ## pracovní zkušenosti ##
 
 * <span class="rok">od 2012 </span>grafický designér na volné noze&nbsp;— zprvu práce při studiu, od roku 2014 „plnoúvazkově“, převážně příprava tištěných publikací a&nbsp;knih, návrh propagačních materiálů, doplňkově pak tvorba vizuálních stylů a&nbsp;návrh a&nbsp;tvorba písma, spolupráce zejména s:
-	* H-mat, o. p. s.&nbsp;— sazba, spolupráce s&nbsp;ilustrátorem a&nbsp;dílčí grafická úprava učebnic matematiky (od 2014)
-	* KISK FF MU&nbsp;— grafická úprava a&nbsp;sazba knih a&nbsp;příprava dalších materiálů (od 2013)
-	* Libdesign&nbsp;— řešení vizuálního stylu (kromě webu) a&nbsp;publikací, příprava vizuálních stylů pro konference a&nbsp;workshopy (od 2015)
-	* Divadlo Feste&nbsp;— řešení propagačních materiálů a&nbsp;vizuálního stylu (od března 2016)
-	* Nakladatelství a časopis Host&nbsp;— grafická úprava a sazba jednotlivých čísel časopisu Host podle připravené osnovy, knižní grafika (od prosince 2018)
+	* H-mat, o. p. s.&nbsp;— sazba, spolupráce s&nbsp;ilustrátorem a&nbsp;dílčí grafická úprava učebnic matematiky (od&nbsp;2014)
+	* KISK FF MU&nbsp;— grafická úprava a&nbsp;sazba knih a&nbsp;příprava dalších materiálů (od&nbsp;2013)
+	* Libdesign&nbsp;— řešení vizuálního stylu (kromě webu) a&nbsp;publikací, příprava vizuálních stylů pro konference a&nbsp;workshopy (od&nbsp;2015)
+	* Divadlo Feste&nbsp;— řešení propagačních materiálů a&nbsp;vizuálního stylu (od&nbsp;března&nbsp;2016)
+	* Nakladatelství a časopis Host&nbsp;— grafická úprava a sazba jednotlivých čísel časopisu Host podle připravené osnovy, spolupráce s ilustrátory; knižní grafika (od&nbsp;prosince&nbsp;2018)
 * <span class="rok">2014—2017 </span>podíl na výuce kurzu Vizualizace dat na Filozofické fakultě MU&nbsp;— podíl na části přednášek týkajících se efektivní vizualizace a&nbsp;problematiky epistemologie ve vizualizaci
 * <span class="rok">jaro 2015 </span>výuka v&nbsp;kurzu tvorby písma na Fakultě informatiky MU&nbsp;— kurz v&nbsp;porovnání se specializovanými školami poskytoval spíše základní rozhled v&nbsp;tématu, spolupráce dosud pokračuje na úrovni externích konzultací se studenty
 * <span class="rok">2015 </span>spolupráce na založení písmolijny Fakulty informatiky MU&nbsp;— vedení studentů při tvorbě vizuálního stylu, grafického návrhu webu a&nbsp;vzorníku, konzultace písem (písmolijna má spíše prezentační než komerční charakter) →&nbsp;[odkaz](http://zeroplusone.fi.muni.cz/)
