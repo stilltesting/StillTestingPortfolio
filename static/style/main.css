@@ -78,6 +78,10 @@ a:not([class]):hover {
 	transition: all 1s ease;
 }
 
+.scrollUp {
+ 	transform: translateY(-150px)
+}
+
 #title, .menuItem {
 	font-size: 2vw;
 	display: block;

@@ -8,28 +8,26 @@
 </div>
 
 <script>
-var prevScrollPos = window.pageYOffset;
-var countScrollDown = 0;
-var countScrollUp = 0;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollPos > currentScrollPos) {
-    if (countScrollUp > 25) {
-    	document.getElementById("header").style.top = "0";
-    	countScrollUp = 0;
-    } else {
-    	countScrollDown = 0;
-    	countScrollUp++;
-    }
-  } else {
-    if (countScrollDown > 25) {
-    	document.getElementById("header").style.top = "-250px";
-    	countScrollDown = 0;
-    } else {
-    	countScrollUp = 0;
-    	countScrollDown++;
-    }
-  }
-  prevScrollPos = currentScrollPos;
-}
+$(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('#header');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+  
+});
 </script>
