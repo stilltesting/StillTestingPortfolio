@@ -107,7 +107,7 @@ h2 {
     width: 80vw;
     height: 56vh;
 
-    max-width: 85vh;
+    max-width: 75vh;
     max-height: 60vw;
 
     position: relative;
@@ -135,18 +135,60 @@ h2 {
     height: 100%;
 }
 
-.circle {
+.vector-graphic {
     width: 56vh;
     height: 56vh;
 
     max-width: 60vw;
     max-height: 60vw;
 
+    position: absolute;
+    right: 0;
+}
+
+.vector-graphic.circle {
     background: url("../_img/circle.png") no-repeat center;
     background-size: contain;
+}
+
+.vector-graphic.one {
+    background: url("../_img/one.png") no-repeat center;
+    background-size: contain;
+}
+
+.vector-graphic.two {
+    background: url("../_img/two.png") no-repeat center;
+    background-size: contain;
+}
+
+.vector-graphic.three {
+    background: url("../_img/three.png") no-repeat center;
+    background-size: contain;
+}
+
+.act-number {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 56vh;
+    height: 56vh;
+
+    max-width: 60vw;
+    max-height: 60vw;
 
     position: absolute;
     right: 0;
+}
+
+.act-number h2 {
+    font-size: 60vh;
+    line-height: 60vh;
+    font-weight: bold;
+
+    margin: 0 0 -10vh 0;
+    padding: 0;
 }
 
 @media (min-aspect-ratio: 16/9) {
