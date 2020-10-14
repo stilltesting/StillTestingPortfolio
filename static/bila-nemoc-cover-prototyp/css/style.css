@@ -89,7 +89,7 @@ h2 {
     box-sizing: border-box;
 
     width: 100%;
-    height: calc(calc(32px + 2.5vw) / 2);
+    height: calc(calc(32px + 5vw) * 0.4);
 }
 
 .full {
@@ -147,4 +147,15 @@ h2 {
 
     position: absolute;
     right: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    body {
+        font-size: calc(32px + 8.9vh);
+        line-height: calc(40px + 8.9vh);
+    }
+
+    .underline {
+        height: calc(calc(32px + 8.9vh) * 0.4);
+    }
 }
