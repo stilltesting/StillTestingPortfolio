@@ -88,6 +88,8 @@ h2 {
     display: inline-block;
     box-sizing: border-box;
 
+    margin-top: calc(calc(32px + 5vw) * 0.2);
+
     width: 100%;
     height: calc(calc(32px + 5vw) * 0.4);
 }
@@ -97,8 +99,8 @@ h2 {
 }
 
 .outline {
-    border: solid white 4px;
-    margin-top: -0.15em;
+    border: solid white 6px;
+    margin-top: calc(calc(calc(32px + 5vw) * 0.2) - 0.16em);
 }
 
 
