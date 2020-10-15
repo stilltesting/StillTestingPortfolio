@@ -23,7 +23,11 @@
 	<div class="gallery">
 		{{ $fileName := .File.TranslationBaseName}}
 		{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
-			<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
+			{{ if eq $imageExt "jpg" }}
+				<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
+			{{ else }}
+
+			{{ end }}
 		{{ end }}
 		<div style="clear: both;"></div>
 	</div>
