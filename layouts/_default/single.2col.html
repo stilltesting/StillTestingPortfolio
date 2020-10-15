@@ -28,10 +28,8 @@
 				{{ $imageExt := index (split .Name ".") 2 }}
 				{{ if eq $imageExt "gif" }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" class="gif" style="background-color: {{ $bgcolor }}">
-				{{ else if eq $imageExt "jpg" }}
-					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
 				{{ else }}
-
+					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
 				{{ end }}
 			{{ end }}
 			<div style="clear: both;"></div>
