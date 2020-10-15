@@ -25,11 +25,12 @@
 		<div class="gallery twoCol">
 			{{ $fileName := .File.TranslationBaseName }}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
-				{{ $imageExt := index (split .Name ".") 2 }}
+				{{ $imageExt := index (split .Name ".") 3 }}
 				{{ if eq $imageExt "gif" }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" class="gif" style="background-color: {{ $bgcolor }}">
-				{{ else }}
+				{{ else if eq $imageExt "jpg" }}
 					<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}" >
+				{{ else }}
 				{{ end }}
 			{{ end }}
 			<div style="clear: both;"></div>
