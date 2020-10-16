@@ -506,4 +506,8 @@ iframe.fullscreen {
 		padding-left: 6vw;
 		padding-top: 1.7;
 	}
+
+	#cv li ul li:before {
+    	margin-left: -6vw;
+	}
 }
