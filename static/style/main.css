@@ -358,13 +358,14 @@ iframe.fullscreen {
 	margin: 0 3vw 0 0;
 	float: right;
 	padding-bottom: 30vh;
+
+	font-size: calc(14px + 0.3vw);
+	line-height: 1.7em;
 }
 
 #cv h2 {
 	margin-top: 2em;
-}
 
-#cv ul, #cv li, #cv h2 {
 	font-size: calc(14px + 0.3vw);
 	line-height: 1.7em;
 }
@@ -390,7 +391,14 @@ iframe.fullscreen {
 }
 
 #cv li ul {
-	padding-left: 9vw;
+	padding-left: 3vw;
+	margin-top: 1.7;
+}
+
+#cv li ul li:before {
+    content: "—";
+    position: absolute;
+    margin-left: -3vw;
 }
 
 @media screen and (max-width: 700px) {
