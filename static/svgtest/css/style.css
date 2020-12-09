@@ -66,7 +66,6 @@ h1 {
 
 .autor {
     display: block;
-
 }
 
 .titul {
@@ -106,8 +105,6 @@ h2 {
     margin-top: calc(calc(calc(32px + 5vw) * 0.2) - 0.16em);
 }
 
-
-
 .composition {
     width: 80vw;
     height: 56vh;
@@ -116,7 +113,6 @@ h2 {
     max-height: 60vw;
 
     position: relative;
-
 }
 
 .vector-graphic {
@@ -135,31 +131,6 @@ h2 {
 
 .dots {
     left: 0;
-}
-
-.act-number {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    width: 56vh;
-    height: 56vh;
-
-    max-width: 60vw;
-    max-height: 60vw;
-
-    position: absolute;
-    right: 0;
-}
-
-.act-number h2 {
-    font-size: 60vh;
-    line-height: 60vh;
-    font-weight: bold;
-
-    margin: 0 0 -10vh 0;
-    padding: 0;
 }
 
 @media (min-aspect-ratio: 16/9) {
