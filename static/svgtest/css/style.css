@@ -138,13 +138,6 @@ h2 {
     left: 0;
 }
 
-
-
-.vector-graphic.dots {
-    background: url("../_img/dots.gif") no-repeat center;
-    background-size: contain;
-}
-
 .act-number {
     display: flex;
 
