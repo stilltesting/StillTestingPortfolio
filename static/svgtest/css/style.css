@@ -47,10 +47,12 @@ body {
 
 .top {
     top: 0;
+    z-index: 2;
 }
 
 .bottom {
     bottom: 0;
+    z-index: 3;
 }
 
 h1 {
@@ -113,7 +115,7 @@ h2 {
     max-height: 60vw;
 
     position: relative;
-
+    z-index: 1;
 }
 
 .vector-graphic.star {
