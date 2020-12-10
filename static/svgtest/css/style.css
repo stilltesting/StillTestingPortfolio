@@ -33,7 +33,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
 }
 
 .top, .bottom {
@@ -48,12 +47,10 @@ body {
 
 .top {
     top: 0;
-    z-index: 2;
 }
 
 .bottom {
     bottom: 0;
-    z-index: 3;
 }
 
 h1 {
@@ -66,6 +63,7 @@ h1 {
 
 .autor {
     display: block;
+
 }
 
 .titul {
@@ -105,6 +103,8 @@ h2 {
     margin-top: calc(calc(calc(32px + 5vw) * 0.2) - 0.16em);
 }
 
+
+
 .composition {
     width: 80vw;
     height: 56vh;
@@ -113,9 +113,10 @@ h2 {
     max-height: 60vw;
 
     position: relative;
+
 }
 
-.vector-graphic {
+.vector-graphic.star {
     width: 56vh;
     height: 56vh;
 
@@ -123,14 +124,23 @@ h2 {
     max-height: 60vw;
 
     position: absolute;
-}
-
-.star {
     right: 0;
 }
 
-.dots {
+.vector-graphic.dots {
+    width: 56vh;
+    height: 56vh;
+
+    max-width: 60vw;
+    max-height: 60vw;
+
+    position: absolute;
     left: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-aspect-ratio: 16/9) {
