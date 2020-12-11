@@ -1,0 +1,49 @@
+<html lang="cs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Karel Čapek: Továrna na absolutno</title>
+	<link rel="stylesheet" type="text/css" href="./style/main.css">
+</head>
+
+<body onresize="adapt()">
+	<div id="cover">
+		<div id="author_title">
+			<h1 id="author">Karel Čapek</h1>
+			<h1 id="title">Továrna <br /> na absolutno</h1>
+			<div style="clear: both"></div>
+		</div>
+
+		<img src="./img/dots.gif" id="dots">
+		<img src="./img/arrow.gif" id="arrow">
+		<div id="A">A</div>
+		<img src="./img/star.png" id="star">
+
+
+	</div>
+
+	<script>
+            function adapt() {
+                //Get vieport width
+                var w = window.innerWidth
+                || document.documentElement.clientWidth
+                || document.body.clientWidth;
+
+                //Get vieport height
+                var h = window.innerHeight
+                || document.documentElement.clientHeight
+                || document.body.clientHeight;
+
+                //Compute font width according to vieport ratio
+                var x = 713.5*(w/h)-427;
+
+                //Set font width for the "o"
+                document.getElementById("A").style.fontVariationSettings = ("'wdth'" + x);
+            }
+
+            //Set font width on page load
+            document.addEventListener('DOMContentLoaded', adapt());
+        </script>
+
+</body>
