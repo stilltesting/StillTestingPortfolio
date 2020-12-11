@@ -140,9 +140,9 @@ h2 {
     left: 0;
 }
 
-.main {
-    width: 100% !important;
-    height: 100% !important;
+.vector-graphic.dots.main, .vector-graphic.star.main {
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-aspect-ratio: 16/9) {
