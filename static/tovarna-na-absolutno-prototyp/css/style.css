@@ -129,8 +129,11 @@ h2 {
 }
 
 .vector-graphic::shadow .main {
-    width: 100%;
-    height: 100%;
+    width: 56vh;
+    height: 56vh;
+
+    max-width: 60vw;
+    max-height: 60vw;
 }
 
 #star {
