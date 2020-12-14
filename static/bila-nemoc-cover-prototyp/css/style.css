@@ -20,8 +20,8 @@ body {
 
     align-items: baseline;
 
-    font-size: calc(32px + 3.5vw);
-    line-height: calc(40px + 3.5vw);
+    font-size: 8vh;
+    line-height: 9.25vh;
 }
 
 .wrapper {
@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-    font-size: 0.6em;
+    font-size: 0.8em;
     font-weight: normal;
     color: white;
     margin: 0;
@@ -88,10 +88,10 @@ h2 {
     display: inline-block;
     box-sizing: border-box;
 
-    margin-top: calc(calc(32px + 3.5vw) * 0.2);
+    margin-top: 1.5vh;
 
     width: 100%;
-    height: calc(calc(32px + 3.5vw) * 0.4);
+    height: 3.125vh;
 }
 
 .full {
@@ -99,8 +99,8 @@ h2 {
 }
 
 .outline {
-    border: solid white 6px;
-    margin-top: calc(calc(calc(32px + 3.5vw) * 0.2) - 0.16em);
+    border: solid white 0.625vh;
+    margin-top: 0.7vh;
 }
 
 
@@ -193,13 +193,19 @@ h2 {
     padding: 0;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 1/1) {
     body {
-        font-size: calc(32px + 6.2vh);
-        line-height: calc(40px + 6.2vh);
+        font-size: 8vw;
+        line-height: 9.25vw;
     }
 
     .underline {
-        height: calc(calc(32px + 6.2vh) * 0.4);
+        margin-top: 1.5vw;
+        height: 3.125vw;
+    }
+
+    .outline {
+        border: solid white 0.625vw;
+        margin-top: 0.7vw;
     }
 }
