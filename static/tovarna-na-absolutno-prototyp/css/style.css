@@ -128,7 +128,12 @@ h2 {
     position: absolute;
 }
 
-.vector-graphic::shadow .main {
+.vector-graphic.star::shadow .main {
+    width: 100%;
+    height: 100%;
+}
+
+.vector-graphic.dots::shadow .main {
     width: 100%;
     height: 100%;
 }
