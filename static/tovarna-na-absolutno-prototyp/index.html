@@ -27,8 +27,8 @@
 	</div>
 
 	<script>
-		document.getElementsByClassName("main").style.width = "100%";
-		document.getElementsByClassName("main").style.height = "100%";
+		document.querySelector(".vector-graphic.dots").shadowRoot.querySelector(".main").setAttribute("style", "width: 100%; height: 100%;");
+		document.querySelector(".vector-graphic.stars").shadowRoot.querySelector(".main").setAttribute("style", "width: 100%; height: 100%;");
 	</script>
 
 </body>
