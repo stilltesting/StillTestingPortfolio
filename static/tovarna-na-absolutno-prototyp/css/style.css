@@ -128,27 +128,12 @@ h2 {
     position: absolute;
 }
 
-.vector-graphic.star.main {
-    width: 100%;
-    height: 100%;
-}
-
-.vector-graphic.dots.main {
-    width: 100%;
-    height: 100%;
-}
-
 .star {
     right: 0;
 }
 
 .dots {
     left: 0;
-}
-
-.main {
-    width: 100%;
-    height: 100%;
 }
 
 @media (max-aspect-ratio: 1/1) {
