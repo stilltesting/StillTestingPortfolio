@@ -114,6 +114,8 @@ h2 {
 
     position: relative;
 
+    margin-left: calc(20vw - 20vh);
+    margin-bottom: 3vh;
 }
 
 .video {
@@ -207,5 +209,9 @@ h2 {
     .outline {
         border: solid white 0.625vw;
         margin-top: 0.7vw;
+    }
+
+    .composition {
+        margin-left: 0;
     }
 }
