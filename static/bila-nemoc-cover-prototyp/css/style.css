@@ -38,7 +38,7 @@ body {
 .top, .bottom {
     box-sizing: border-box;
     width: 100%;
-    padding: 5vh 5vw 5vh 5vw;
+    padding: 5vh;
     position: absolute;
     align-items: baseline;
     display: flex;
@@ -213,5 +213,9 @@ h2 {
 
     .composition {
         margin-left: 0;
+    }
+
+    .top, .bottom {
+        padding: 5vw;
     }
 }
