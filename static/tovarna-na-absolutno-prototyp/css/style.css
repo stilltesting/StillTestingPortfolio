@@ -38,7 +38,7 @@ body {
 .top, .bottom {
     box-sizing: border-box;
     width: 100%;
-    padding: 5vh;
+    padding: 5vh 5vh 7vh 5vh;
     position: absolute;
     align-items: baseline;
     display: flex;
@@ -158,6 +158,6 @@ h2 {
     }
 
     .top, .bottom {
-        padding: 5vw;
+        padding: 5vw 5vw 7vw 5vw;
     }
 }
