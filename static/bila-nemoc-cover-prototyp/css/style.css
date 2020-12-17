@@ -47,10 +47,12 @@ body {
 
 .top {
     top: 0;
+    z-index: 2;
 }
 
 .bottom {
     bottom: 0;
+    z-index: 3;
 }
 
 h1 {
@@ -113,9 +115,11 @@ h2 {
     max-height: 60vw;
 
     position: relative;
-
+    
     margin-left: calc(30vw - 30vh);
     margin-bottom: 7vh;
+
+    z-index: 1;
 }
 
 .video {
