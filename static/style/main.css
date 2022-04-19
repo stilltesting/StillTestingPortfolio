@@ -258,7 +258,7 @@ a:not([class]):hover {
 	display: flex;
 	align-items: baseline;
 	padding: 200px 0 200px 0;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 .bio {
@@ -291,7 +291,7 @@ a:not([class]):hover {
 }
 
 .perex p {
-	line-height: 3vw;
+	line-height: 2vw;
 	margin: 0;
 }
 
