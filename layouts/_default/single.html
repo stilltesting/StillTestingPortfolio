@@ -9,7 +9,7 @@
 		<div class="bio">
 			<h2 id="projectName">{{ .Title }}</h2>
 
-			<h3 id="projectClient">klient: {{.Params.projectclient}}</h3>
+			<h3 id="projectClient">klient: {{.Params.projectclient | markdownify}}</h3>
 			<h3 id="projectType">typ: {{.Params.projecttype}}</h3>
 			<h3 id="projectYear">rok: {{.Params.projectyear}}</h3>
 		</div>
