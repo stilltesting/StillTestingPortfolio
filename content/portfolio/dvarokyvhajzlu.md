@@ -1,5 +1,5 @@
 ---
-title: "Dva roky v&nbsp;hajzlu"
+title: "Dva roky v hajzlu"
 projectclient: "Nakladatelství Host"
 projecttype: "kniha"
 projectyear: "2021"
