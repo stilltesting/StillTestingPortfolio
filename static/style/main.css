@@ -273,8 +273,8 @@ a:not([class]):hover {
 }
 
 .bio h3 {
-	font-size: 2vw;
-	line-height: 3vw;
+	font-size: 1.5vw;
+	line-height: 2vw;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
