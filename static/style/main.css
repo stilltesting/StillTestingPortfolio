@@ -157,8 +157,8 @@ a:not([class]):hover {
 	top: 0;
 	width: 100vw;
 	height: 95vh;
+	max-height: 100vw;
 	color: #ff5e00;
-	z-index: -1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -203,6 +203,7 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	padding-top: 1vw;
 	padding-left: 1vw;
+	z-index: 1;
 }
 
 .portfolioItem {
