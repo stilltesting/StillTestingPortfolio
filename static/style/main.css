@@ -54,16 +54,20 @@ a:not([class]):hover {
 	background-color: black;
 }
 
+.blue {
+	color: white;
+	background-color: #3800ff;
+}
+
 /**HEADER**/
 
 #header {
 	width: 100vw;
 	display: block;
 	box-sizing: border-box;
-	padding: 1vw 3vw 0.5vw 3vw;
+	padding: 0 1vw 0 1vw;
 	position: fixed;
 	z-index: 255;
-	transition: transform 1s ease;
 }
 
 .scrollUp {
@@ -81,12 +85,12 @@ a:not([class]):hover {
 	padding: 0;
 	margin: 0;
 	float: left;
-	width: 46.5vw;
+	width: 48.5vw;
 }
 
 #menu {
 	float: left;
-	width: 46vw;
+	width: 49vw;
 	margin-left: 1vw;
 }
 
@@ -302,8 +306,8 @@ a:not([class]):hover {
 /**PORTFOLIO PAGE**/
 
 #description {
-	width: 94vw;
-	margin: 0 3vw 0 3vw;
+	width: 98vw;
+	margin: 0 1vw 0 1vw;
 	display: flex;
 	align-items: baseline;
 	padding: 200px 0 200px 0;
@@ -311,7 +315,7 @@ a:not([class]):hover {
 }
 
 .bio {
-	width: 46.5vw;
+	width: 49vw;
 	float: left;
 }
 
@@ -333,7 +337,7 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	display: block;
 	float: left;
-	width: 46.5vw;
+	width: 49vw;
 	margin-left: 1vw;
 	padding: 0;
 	font-weight: normal;
