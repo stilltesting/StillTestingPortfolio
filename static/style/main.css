@@ -90,7 +90,7 @@ a:not([class]):hover {
 
 #menu {
 	float: left;
-	width: 49vw;
+	width: 48.5vw;
 	margin-left: 1vw;
 }
 
@@ -315,7 +315,7 @@ a:not([class]):hover {
 }
 
 .bio {
-	width: 49vw;
+	width: 48.5vw;
 	float: left;
 }
 
@@ -337,7 +337,7 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	display: block;
 	float: left;
-	width: 49vw;
+	width: 48.5vw;
 	margin-left: 1vw;
 	padding: 0;
 	font-weight: normal;
