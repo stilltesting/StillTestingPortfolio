@@ -110,18 +110,7 @@ a:not([class]):hover {
 	width: 100%;
 }
 
-/**PERSPECTIVE**/
-.perspective {
-	position: absolute;
-	width: 50vw;
-	margin: auto;
-	padding-bottom: 20vh;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
+/**COVER**/
 #cover {
 	width: 100vw;
 	height: 95vh;
@@ -133,9 +122,64 @@ a:not([class]):hover {
 
 	margin: 0;
 	padding: 0;
-	background: url(../images/cover/cover.gif) center center no-repeat;
-	background-color: #4000ff;
-	background-size: contain;
+	background-color: #3800ff;
+
+	color: #160066;
+	font-family: StillTestingLogo;
+}
+
+/**COVER ANIMATION**/
+@font-face {
+    font-family: "StillTestingLogo";
+    src: url("../fonts/StillTestingLogotypeVF.ttf") format("truetype");
+}
+
+#stillTestingLogo {
+	font-size: 20vw;
+	line-height: 20vw;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	z-index: 1;
+}
+
+.anim1 {
+	animation: 5s bounce infinite;
+}
+
+.anim2 {
+	animation: 5s rebounce infinite;
+}
+
+#background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #ff5e00;
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#circles {
+	font-size: 50vw;
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes bounce {
+    from {font-variation-settings: "DFRM" 1;}
+    50% {font-variation-settings: "DFRM" 1000;}
+    to {font-variation-settings: "DFRM" 1;}
+}
+
+@keyframes rebounce {
+    from {font-variation-settings: "DFRM" 1000;}
+    50% {font-variation-settings: "DFRM" 1;}
+    to {font-variation-settings: "DFRM" 1000;}
 }
 
 /**SUBHEADING**/
