@@ -117,17 +117,16 @@ a:not([class]):hover {
 	max-height: 100vw;
 
 	box-sizing: border-box;
-	padding-top: 10vh;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	margin: 0;
-	padding: 0;
+	padding: 5vh 0 0 0;
 	background-color: #3800ff;
 
-	color: #050019;
+	color: #white;
 	font-family: StillTestingLogo;
 }
 
@@ -158,7 +157,7 @@ a:not([class]):hover {
 #background {
 	position: absolute;
 	box-sizing: border-box;
-	padding-top: 10vh;
+	padding-top: 5vh;
 	top: 0;
 	width: 100vw;
 	height: 95vh;
