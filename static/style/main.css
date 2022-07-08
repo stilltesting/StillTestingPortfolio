@@ -51,7 +51,7 @@ body {
 }
 
 /**FONT SIZE**/
-#cv, #cv h2, .bio h3 {
+#cv, #cv h2, .bio h3, #tradeInfo h3, #tradeInfo p {
 	font-size: clamp(2.286rem, 1vw + 1rem, 3.571rem);
 	line-height: 1.7em;
 }
@@ -404,6 +404,15 @@ iframe.fullscreen {
 	margin: 0;
 }
 
+/**TRADE INFO**/
+#tradeInfo {
+	position: absolute;
+	width: 46.5vw;
+	margin-left: 50.5vw;
+	bottom: 3vh;
+	color: white;
+}
+
 /**CV**/
 #cv {
 	display: block;
@@ -526,5 +535,11 @@ iframe.fullscreen {
 
 	#cv li ul li:before {
     	margin-left: -6vw;
+	}
+
+	/**TRADE INFO**/
+	#tradeInfo {
+		width: 94vw;
+		margin: 0 3vw 0 3vw;
 	}
 }
