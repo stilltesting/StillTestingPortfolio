@@ -317,7 +317,6 @@ body {
 	box-sizing: border-box;
 	align-items: baseline;
 	padding: 200px 3vw 200px 3vw;
-	font-size: 1.5vw;
 }
 
 .bio {
@@ -326,7 +325,7 @@ body {
 }
 
 .bio h2 {
-	margin: 0 0 2vw 0;
+	margin: 0 0 0.85em 0;
 }
 
 .bio h3 {
@@ -347,7 +346,7 @@ body {
 
 .perex p {
 	margin: 0;
-	max-width: 70ch;
+	max-width: 50ch;
 }
 
 .gallery {
