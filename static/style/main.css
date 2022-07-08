@@ -1,3 +1,7 @@
+html {
+	font-size: 12px;
+}
+
 body {
 	font-family: "Aktiv-Grotesk-Extended";
 
@@ -14,18 +18,6 @@ body {
 	perspective: 10px;
 	perspective-origin: 50% 50%;
 }
-/**a:not([class]) {
-	font-weight: bold;
-	text-decoration: none;
-	padding-bottom: 0.05em;
-	border-bottom: 1px solid rgba(0, 0, 0, 1);
-	transition: all 0.4s ease;
-}
-
-a:not([class]):hover {
-	text-decoration: none;
-	border-bottom: 1px solid rgba(0, 0, 0, 0);
-}**/
 
 /**COLOR**/
 .white {
@@ -58,6 +50,22 @@ a:not([class]):hover {
 	background-color: #3800ff;
 }
 
+/**FONT SIZE**/
+#cv, #cv h2 {
+	font-size: clamp(1.333rem, 1vw + 1rem, 2.083rem);
+	line-height: 1.7em;
+}
+
+.perex p, .bio h3, #title, .menuItem {
+	font-size: calc(2 * clamp(1.333rem, 1vw + 1rem, 2.083rem));
+	line-height: 1.7em;
+}
+
+.bio h2 {
+	font-size: calc(4 * clamp(1.333rem, 1vw + 1rem, 2.083rem));
+	line-height: 1.7em;
+}
+
 /**HEADER**/
 
 #header {
@@ -74,7 +82,6 @@ a:not([class]):hover {
 }
 
 #title, .menuItem {
-	font-size: 1.5vw;
 	display: block;
 	text-decoration: none;
 	font-weight: bold;
@@ -310,7 +317,6 @@ a:not([class]):hover {
 	box-sizing: border-box;
 	align-items: baseline;
 	padding: 200px 3vw 200px 3vw;
-	font-size: 1.5vw;
 }
 
 .bio {
@@ -319,14 +325,10 @@ a:not([class]):hover {
 }
 
 .bio h2 {
-	font-size: 3vw;
-	line-height: 4vw;
 	margin: 0 0 2vw 0;
 }
 
 .bio h3 {
-	font-size: 1.5vw;
-	line-height: 2vw;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
@@ -343,7 +345,6 @@ a:not([class]):hover {
 }
 
 .perex p {
-	line-height: 2vw;
 	margin: 0;
 }
 
@@ -410,16 +411,10 @@ iframe.fullscreen {
 	margin: 0 3vw 0 0;
 	float: right;
 	padding-bottom: 30vh;
-
-	font-size: calc(14px + 0.3vw);
-	line-height: 1.7em;
 }
 
 #cv h2 {
 	margin-top: 2em;
-
-	font-size: calc(14px + 0.3vw);
-	line-height: 1.7em;
 }
 
 #cv li, #cv h2 {
@@ -428,9 +423,12 @@ iframe.fullscreen {
 
 #cv .rok {
 	display: inline-block;
-	width: 18vw;
-	margin-left: -18vw;
+	box-sizing: border-box;
+	padding-right: 1vw;
+	width: 20vw;
+	margin-left: -20vw;
 	font-weight: bold;
+	text-align: right;
 }
 
 #cv p, #cv ul, #cv li {
@@ -454,13 +452,6 @@ iframe.fullscreen {
 }
 
 @media screen and (max-width: 700px) {
-	
-	/**FONT SIZE**/
-
-	#title, .menuItem, .perex p, .bio h2, .bio h3  {
-		font-size: 24px;
-		line-height: 1.25em;
-	}
 
 	/**HEADER**/
 
@@ -470,24 +461,7 @@ iframe.fullscreen {
 		float: left;
 	}
 
-
-	/**PERSPECTIVE**/
-
-	.perspective {
-		width: 80vw;
-	}
-
-	#cover {
-		background-size: contain;
-	}
-
 	/**SUBHEADING**/
-
-	#subheading {
-		font-size: 10vw;
-		line-height: 12vw;
-	}
-
 	.arrow {
 		width: 80px;
 	}
@@ -501,11 +475,6 @@ iframe.fullscreen {
 
 	.projectName {
 		margin-top: 30vw;
-	}
-
-	.projectName, .projectType {
-		font-size: 24px;
-		line-height: 1.25em;
 	}
 
 	/**PORTFOLIO PAGE**/
@@ -538,10 +507,6 @@ iframe.fullscreen {
 
 	#cv ul {
 		padding-left: 1.5em;
-	}
-
-	#cv ul, #cv li, #cv h2 {
-		font-size: 16px;
 	}
 
 	#cv li:before {
