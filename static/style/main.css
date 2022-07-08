@@ -413,6 +413,11 @@ iframe.fullscreen {
 	color: white;
 }
 
+#tradeInfo h3, #tradeInfo p {
+	margin: 0;
+	padding: 0;
+}
+
 /**CV**/
 #cv {
 	display: block;
