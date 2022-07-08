@@ -410,8 +410,8 @@ iframe.fullscreen {
 	display: block;
 	box-sizing: border-box;
 	width: 46.5vw;
-	margin: 0 3vw 0 0;
-	float: right;
+	margin: 0 3vw 0 50.5vw;
+	float: left;
 	padding-bottom: 30vh;
 }
 
@@ -505,8 +505,8 @@ iframe.fullscreen {
 
 	/**CV**/
 	#cv {
-		width: 90vw;
-		margin: 0 5vw 0 5vw;
+		width: 94vw;
+		margin: 0 3vw 0 3vw;
 	}
 
 	#cv li:before {
