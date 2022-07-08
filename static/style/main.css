@@ -57,12 +57,12 @@ body {
 }
 
 .perex p, .bio h3, #title, .menuItem {
-	font-size: calc(1.5 * clamp(2.286rem, 1vw + 1rem, 3.571rem);
+	font-size: calc(1.5 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
 	line-height: 1.7em;
 }
 
 .bio h2 {
-	font-size: calc(3 * clamp(2.286rem, 1vw + 1rem, 3.571rem);
+	font-size: calc(3 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
 	line-height: 1.7em;
 }
 
