@@ -317,15 +317,9 @@ body {
 	display: flex;
 	box-sizing: border-box;
 	align-items: baseline;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	padding: 200px 3vw 200px 3vw;
-=======
-=======
->>>>>>> parent of 96aceaa (Update main.css)
 	padding: 200px 0 200px 0;
 	font-size: 1.5vw;
->>>>>>> parent of 96aceaa (Update main.css)
 }
 
 .bio {
