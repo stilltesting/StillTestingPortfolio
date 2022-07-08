@@ -347,6 +347,7 @@ body {
 
 .perex p {
 	margin: 0;
+	max-width: 70ch;
 }
 
 .gallery {
@@ -434,6 +435,7 @@ iframe.fullscreen {
 
 #cv p, #cv ul, #cv li {
 	font-weight: Normal;
+	max-width: 70ch;
 }
 
 #cv ul {
