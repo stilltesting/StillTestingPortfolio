@@ -51,12 +51,12 @@ body {
 }
 
 /**FONT SIZE**/
-#cv, #cv h2 {
+#cv, #cv h2, .bio h3 {
 	font-size: clamp(2.286rem, 1vw + 1rem, 3.571rem);
 	line-height: 1.7em;
 }
 
-.perex p, .bio h3, #title, .menuItem {
+.perex p, #title, .menuItem {
 	font-size: calc(1.5 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
 	line-height: 1.7em;
 }
