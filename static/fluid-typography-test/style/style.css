@@ -1,0 +1,31 @@
+body {
+	font-size: clamp(1rem, 1rem + calc((35vw - 126px) / 39), 1.875rem);
+
+	font-family: Spectral;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.5em;
+
+	margin: 3em 0 3em 0;
+}
+
+p {
+	font-size: 1em;
+
+	text-indent: 2em;
+
+
+	margin: 0;
+}
+
+p:first-of-type {
+	text-indent: 0;
+}
+
+#text-block {
+	margin: 0 auto 0 auto;
+	width: 90vw;
+	max-width: 65ch;
+}

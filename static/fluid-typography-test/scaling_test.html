@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fluid Typography Scaling Test</title>
+
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+	<div id="text-block">
+		<h1>INZERÁT</h1>
+		<p>
+			Na Nový rok 1943 pan G. H. Bondy, prezident závodů MEAS, četl noviny jako kdykoliv jindy; přeskočil poněkud neuctivě zprávy z bojiště, vyhnul se kabinetní krizi a vyplul plnými plachtami (– protože Lidové noviny dávno již zpětinásobily svůj formát, stačily by tyto plachty i na zámořskou plavbu –) do rubriky Národního hospodáře. Zde křižoval řádnou chvíli, načež svinul plachty a nechal se kolébat sněním.
+		</p>
+		<p>
+			„Uhelná krize,“ řekl si, „vyčerpání dolů; ostravská pánev zastavuje práci na léta. U všech všudy, to je pohroma. Musíme vozit hornoslezské uhlí; prosím, počítejte, oč nám to zdraží naše produkty, a pak mně mluvte o soutěži! Jsme na hromadě; a zvýší-li Německo tarify, můžeme zavřít boudu. A Živno klesla. Ó bože, jaké malé poměry! Jaké těsné, pitomé, neplodné poměry! Ach, zatracená krize!“
+		</p>
+		<p>
+			Pan G. H. Bondy, předseda správní rady, se zastavil. Něco ho neodbytně dráždilo. Sledoval to, až to nasel na poslední stránce odložených novin. Bylo to slovíčko LEZ. Vlastně jen půl slova, protože noviny byly zrovna před L přeloženy. Byla to právě ta polovičatost, která se tak neobyčejně vnucovala. „Nu, bože, bude tam asi ŽELEZ,“ uvažoval Bondy neurčitě, „nebo NELEZ. Nebo NÁLEZ. A dusíkové akcie také klesly. Strašlivá stagnace. Malé, směsně malé poměry. – Ale to je nesmysl, kdo by inzeroval nález? Spíše ztrátu. Má tam asi stát ZTRÁTA, rozhodně.“
+		</p>
+	</div>	
+</body>
+
+<script>
+	window.onload = updateLineHeight;
+	window.onresize = updateLineHeight;
+
+	var maxLineHeight = 1.7;    // uživateslky nastavená hodnota maximálního řádkového prokladu v em
+	var deltaLineHeight = 0.4;    // uživatelsky nastavená hodnota maximálního přírůstku řádkového prokladu v em
+	var minResolution = 320;    // uživatelsky nastavené minimální rozlišení, při kterém dochází ke změně řádkového prokladu
+
+	var textBlock = document.getElementById('text-block');
+
+	function updateLineHeight() {
+		var width = parseFloat(getComputedStyle(textBlock).getPropertyValue('width'));
+		var maxWidth = parseFloat(getComputedStyle(textBlock).getPropertyValue('max-width')); // asi to bude potřeba vyřešit přes em
+
+
+		var lineHeight = maxLineHeight - deltaLineHeight * (maxWidth - width) / (maxWidth - 320);
+		
+		document.getElementById('text-block').setAttribute('style', "line-height: clamp(1.3em, " + lineHeight + 'em, 1.7em);');
+	}
+</script>
+
+</html>
