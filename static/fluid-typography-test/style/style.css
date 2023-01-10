@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
 body {
 	font-size: clamp(1rem, 1rem + calc((35vw - 126px) / 39), 1.875rem);
 
-	font-family: Spectral;
+	font-family: 'Spectral', serif;
 }
 
 h1 {
