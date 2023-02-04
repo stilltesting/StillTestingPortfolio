@@ -1,4 +1,5 @@
 html {
+	font-size: 7px;
 }
 
 body {
@@ -51,17 +52,17 @@ body {
 
 /**FONT SIZE**/
 #cv, #cv h2, .bio h3, #tradeInfo h3, #tradeInfo p {
-	font-size: clamp(1rem, calc(1rem + ((35vw - 126px) / 39), 1.875rem));
+	font-size: clamp(2.286rem, 1vw + 1rem, 3.571rem);
 	line-height: 1.7em;
 }
 
 .perex p, #title, .menuItem {
-	font-size: calc(1.5 * clamp(1rem, calc(1rem + ((35vw - 126px) / 39), 1.875rem)));
+	font-size: calc(1.5 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
 	line-height: 1.7em;
 }
 
 .bio h2 {
-	font-size: calc(1.5 * clamp(1rem, calc(1rem + ((35vw - 126px) / 39), 1.875rem)));
+	font-size: calc(3 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
 	line-height: 1.7em;
 }
 
