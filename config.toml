@@ -1,3 +1,8 @@
 baseURL = "http://www.stilltesting.cz"
 languageCode = "cs_CZ"
 title = "still testing"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
