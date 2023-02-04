@@ -29,5 +29,5 @@ p:first-of-type {
 #text-block {
 	margin: 0 auto 0 auto;
 	width: 90vw;
-	max-width: 65ch;
+	max-width: 65em;
 }
