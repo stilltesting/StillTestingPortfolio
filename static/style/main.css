@@ -50,6 +50,11 @@ body {
 	background-color: #3800ff;
 }
 
+.blue a {
+	color: white;
+	text-decoration: none;	
+}
+
 /**FONT SIZE**/
 #cv, #cv h2, .bio h3, #tradeInfo h3, #tradeInfo p {
 	font-size: clamp(2.286rem, 1vw + 1rem, 3.571rem);
