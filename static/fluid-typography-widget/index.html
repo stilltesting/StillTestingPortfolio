@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+
+	<style>
+	    :root {
+	      --chapter-scale: 3;
+	      --subsection-scale: 2;
+	      --root-font-size: 18px;
+	    }
+
+	    h2.chapter {
+	    	font-size: var(--chapter-scale);
+	    }
+
+	    h3.subsection {
+	    	font-size: var(--subsection-scale);
+	    }
+
+	    body {
+	    	font-size: var(--root-font-size);
+	    }
+  </style>
+	</style>
+
+	<title>Fluid Typography Structure Widget</title>
+</head>
+<body>
+
+<button id="menuToggle" class="open"><span id="arrow">→</span></button>
+
+<div id="controls" class="show">
+	<h2 class="UI-text">Parameters</h2>
+	<div class="block">
+		<h3 class="UI-text">Font Size Scaling</h3>
+
+		<label for="minRes">Minimal resolution:</label><br>
+		<input type="number" id="minRes" name="minRes" value="480" onchange="updateCSS()"><br>
+
+		<label for="maxRes">Maximal resolution:</label><br>
+		<input type="number" id="maxRes" name="maxRes" value="1920" onchange="updateCSS()"><br>
+
+		<label for="minFontSize">Minimal font size:</label><br>
+		<input type="number" id="minFontSize" name="minFontSize" value="18" onchange="updateCSS()"><br>
+
+		<label for="maxFontSize">Maximal font size:</label><br>
+		<input type="number" id="maxFontSize" name="maxFontSize" value="24" onchange="updateCSS()"><br>
+	</div>
+
+	<div class="block">
+		<h3 class="UI-text">Leading</h3>
+		
+		<label for="minLeading">Minimal leading:</label><br>
+		<input type="number" id="minLeading" name="minLeading" value="1.4" onchange="updateCSS()"><br>
+
+		<label for="maxLeading">Maximal leading:</label><br>
+		<input type="number" id="maxLeading" name="maxLeading" value="1.8" onchange="updateCSS()"><br>
+	</div>
+
+	<div class="block">
+		<h3 class="UI-text">Scaling Hierarchy</h3>
+				
+		<label for="minChapterScale">Chapter Title Minimal Scale:</label><br>
+		<input type="number" id="minChapterScale" name="minChapterScale" value="2" onchange="updateCSS()"><br>
+
+		<label for="maxChapterScale">Chapter Title Maximal Scale:</label><br>
+		<input type="number" id="maxChapterScale" name="maxChapterScale" value="3" onchange="updateCSS()"><br>
+
+		<label for="minSubsectionScale">Subsection Minimal scale:</label><br>
+		<input type="number" id="minSubsectionScale" name="minSubsectionScale" value="1.2" onchange="updateCSS()"><br>
+
+		<label for="maxSubsectionScale">Subsection Maximal scale:</label><br>
+		<input type="number" id="maxSubsectionScale" name="maxSubsectionScale" value="1.5" onchange="updateCSS()"><br>
+	</div>
+
+	<div style="clear:both"></div>
+
+	<button onclick="updateCSS()" id="updateCSS">Update CSS</button>
+
+	</div>
+
+<div id="contentWrapper">
+	<div id="textBox">
+		<h2 class="chapter">Úvod</h2>
+		
+		<p>
+			Kniha má v sociokulturním prostoru výsadní postavení jako intelektuální, estetický i společenský artefakt. S konceptem knihy je neoddělitelně spjata značná část historie a vývoje typografie a grafického designu. Nástup digitalizace a rozšíření výpočetních technologií je spjatý též s rozšířením čtení v elektronické podobě a vznikem takzvané elektronické knihy (též e-knihy). Proces jejího utváření však stále není dovršen, ať už z hlediska společenského a kulturního vnímání či grafického designu a typografie. Elektronická kniha je tak stále vnímána jako jakási podružná alternativa ke knize tištěné. Design elektronických knih je zpravidla chudý až neexistující, sklouzává k uniformitě a individuální tvář e-knihy se omezuje pouze na pomyslnou obálku. Čestné výjimky ve formě autorských či uměleckých e-knih, které tvoří rovnocennou alternativu tištěných knih a působí jako svébytné artefakty, často stojí mimo hlavní proud zájmu čtenářů. Jejich výtvarná pojetí jsou odvážná, experimentální a nezařaditelná do běžné produkce, podobně jako různá bibliofilská vydání, jaká známe z prostředí tištěných knih. Spojujícím prvkem takto vypravených knih je paradoxně jejich diverzita — oproti běžné produkci využívají celou škálu individuálních výtvarných i typografických přístupů, které prakticky nelze uplatnit v širším kontextu. Na jedné straně tedy máme grafickou úpravu takřka neznatelnou, na druhé straně nesmírně bohatou až přebujelou. Pomyslná střední cesta běžné knižní produkce v digitálním prostoru takřka neexistuje.
+		</p>
+
+		<p>
+			Kniha je velmi komplexní pojem, se kterým je spjato obrovské množství otázek spojených s její kulturní, společenskou i estetickou funkcí a s technologickou stránkou její produkce, její materialitou, její uživatelskou zkušeností a mnoha dalšími aspekty. Jako kterýkoliv jiný komplexní pojem tvoří i kniha síť vzájemně provázaných vhledů. Proto, je-li řeč o knižním designu, grafické úpravě a typografii, nelze opomenout ani tato další hlediska. Spektrum použité a studované literatury je tak odpovídajícím způsobem široké a pokrývá značnou škálu oborů, které se knihou zabývají z různých úhlů pohledu.
+		</p>
+
+		<h3 class="subsection">Nové jevy, staré pojmy</h3>
+
+		<p>
+			Benjamin Bratton (2016) ve své knize a zároveň manifestu stejnojmenného programu institutu Strelka The New Normal tvrdí, že k popisu nových jevů často jsou často používány kombinace starých, zaužívaných pojmů. Toto označování nového starým pak podle Brattona vede k určitému omezení rozhledu a umělému limitování potenciálu nových technologií. Jako příklad uvádí v prvopočátcích vynálezu moderních automobilů často užívaný pojem kočár bez koní (horseless carriage), který při návrhu nových vozidel naváděl k používání designového jazyka spjatého s klasickým koňským spřežením, a to včetně připodobnění sedadla řidiče posedu pro kočího (Bratton 2016) — podobně mluví též Drucker (2003). Emancipačním momentem vynálezu se stalo až opuštění této představy, přizpůsobení vozidel potřebám řidiče a cestujících — vstup designu — a vznik pojmu automobil. Podobnou situaci je dnes stále možné sledovat na poli elektronických knih. Ty se staly natolik všudypřítomnými a dosáhly takové sociokulturní penetrace, že s naprostou samozřejmostí vstupují do našich životů skrze displeje našich telefonů a počítačů. Málokoho tak napadne zpochybňovat jejich formu, styl i charakter. Staly se jakýmsi substitutem té pravé tištěné knihy s obecně přijímanými, nezpochybňovanými a v důsledku takřka neviditelnými nedostatky. Elektronické knihy jsou tak stále vztahovány a kontrastovány se svým tištěným předobrazem a stávají se v podstatě jeho pokřiveným digitálním zrcadlem, jakýmsi nedokonalým odrazem (Velagić 2014; Kovač 2019). V souladu s tím je možné pozorovat jakousi efemérnost digitální typografie (Bath 2012), ta se pak stává pouhým utilitárním nástrojem k předání informace. Tento pocit efemérnosti se tranzitivně přenáší na celou elektronickou knihu — po přečtení se ztrácí kdesi v digitálním prostoru, kde — dále neviditelná — neplní, ani nemůže plnit svou reprezentační a společenskou funkci (Gruningová 2018).
+		</p>
+	</div>
+</div>
+
+<script>
+	var textBox = document.getElementById("textBox");
+	var minRes = document.getElementById("minRes").value;
+    var maxRes = document.getElementById("maxRes").value;
+    var minFontSize = document.getElementById("minFontSize").value;
+    var maxFontSize = document.getElementById("maxFontSize").value;
+	
+	var minLineHeight = document.getElementById("minLeading").value;
+    var maxLineHeight = document.getElementById("maxLeading").value;
+
+    var minChapterScale = document.getElementById("minChapterScale").value;
+    var maxChapterScale = document.getElementById("maxChapterScale").value;
+    var minSubsectionScale = document.getElementById("minSubsectionScale").value;
+    var maxSubsectionScale = document.getElementById("maxSubsectionScale").value;
+
+	window.onload = updateCSS;
+	window.onresize = onResize;
+
+	function onResize() {
+		updateLineHeight();
+		updateHierarchyScaling();
+	}
+
+    function updateCSS() {
+    	updateRootFontSize();
+		updateFontScaling();
+    	updateLineHeight();
+    	updateHierarchyScaling();
+    }
+
+    function updateRootFontSize() {
+    	minFontSize = document.getElementById("minFontSize").value;
+    	document.documentElement.style.setProperty('--root-font-size', minFontSize);
+    }
+
+    function updateFontScaling() {
+    	// Reading the inputs
+    	minRes = document.getElementById("minRes").value;
+    	maxRes = document.getElementById("maxRes").value;
+    	minFontSize = document.getElementById("minFontSize").value;
+    	maxFontSize = document.getElementById("maxFontSize").value;
+
+    	// Computing fluid font scaling
+    	var deltaRes = maxRes - minRes;
+    	var deltaFontSize = maxFontSize - minFontSize;
+
+    	var fontSizeExpression = "calc(" + minFontSize + "px + (" + deltaFontSize + " * ((100vw - " + minRes + "px) / " + deltaRes + ")))";
+
+      	// Applying the styles
+      	textBox.style.fontSize = fontSizeExpression;
+    }
+
+    function updateLineHeight() {
+    	minLineHeight = document.getElementById("minLeading").value;
+    	maxLineHeight = document.getElementById("maxLeading").value;
+
+    	// Getting required variables
+    	var width = parseFloat(getComputedStyle(textBox).getPropertyValue('width'));
+    	var maxWidth = parseFloat(getComputedStyle(textBox).getPropertyValue('max-width'));
+
+		// Computing fluid leading
+		var deltaLineHeight = maxLineHeight - minLineHeight;
+
+		var lineHeight = maxLineHeight - deltaLineHeight * (maxWidth - width) / (maxWidth - minRes);
+
+		var lineHeightExpression = "clamp(" + minLineHeight + "em, " + lineHeight + "em," + maxLineHeight + "em)";
+
+		textBox.style.lineHeight = lineHeightExpression;
+    }
+
+    function updateHierarchyScaling() {
+		minChapterScale = document.getElementById("minChapterScale").value;
+		maxChapterScale = document.getElementById("maxChapterScale").value;
+		minSubsectionScale = document.getElementById("minSubsectionScale").value;
+		maxSubsectionScale = document.getElementById("maxSubsectionScale").value;
+
+    	var deltaChapterScale = maxChapterScale - minChapterScale;
+    	var deltaSubsectionScale = maxSubsectionScale - minSubsectionScale;
+    	var deltaTextFontSize = maxFontSize - minFontSize;
+    	var currentTextFontSize = parseFloat(getComputedStyle(textBox).getPropertyValue('font-size'));
+
+    	var fontSizeFactor = (maxFontSize - currentTextFontSize) / deltaTextFontSize
+
+    	var chapterFontSize = Number(maxChapterScale) - deltaChapterScale * fontSizeFactor;
+    	var subsectionFontSize = Number(maxSubsectionScale) - deltaSubsectionScale * fontSizeFactor;
+
+    	var chapterFontSizeExpression = "clamp(" + minChapterScale + "em, " + chapterFontSize + "em," + maxChapterScale + "em)";
+    	var subsectionFontSizeExpression = "clamp(" + minSubsectionScale + "em, " + subsectionFontSize + "em," + maxSubsectionScale + "em)";
+
+    	document.documentElement.style.setProperty('--chapter-scale', chapterFontSizeExpression);
+    	document.documentElement.style.setProperty('--subsection-scale', subsectionFontSizeExpression);
+    }
+
+    document.getElementById("menuToggle").addEventListener("click", function() {
+  		var menu = document.getElementById("controls");
+		menu.classList.toggle("show");
+		menu.classList.toggle("hide");
+		var menuToggle = document.getElementById("menuToggle");
+		menuToggle.classList.toggle("open");
+		menuToggle.classList.toggle("closed");
+	});
+</script>
+
+</body>
+</html>
