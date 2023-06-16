@@ -156,7 +156,7 @@ button {
   	padding: 0.5rem 1rem;
 
   	box-shadow: 2px 2px 0px black;
-
+  	transition: box-shadow 700ms;
 }
 
 button:hover {
