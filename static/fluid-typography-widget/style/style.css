@@ -27,6 +27,8 @@
 	display: flow-root;
 
 	position: relative;
+	hyphens: auto;
+	hyphenate-limit-chars: 7 3 3;
 }
 
 body {
