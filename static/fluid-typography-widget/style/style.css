@@ -93,7 +93,7 @@ h3.subsection {
 
 	font-family: "Space Mono";
 
-	transition: margin 700ms;
+	transition: margin 700ms ease;
 }
 
 #controls.show {
@@ -156,7 +156,7 @@ button {
   	padding: 0.5rem 1rem;
 
   	box-shadow: 2px 2px 0px black;
-  	transition: box-shadow 700ms;
+  	transition: box-shadow 300ms ease;
 }
 
 button:hover {
@@ -181,7 +181,7 @@ button:hover {
 	top: 1.5rem;
 
 	z-index: 256;
-	transition: left 700ms;
+	transition: left 300ms ease, box-shadow 300ms ease;
 }
 
 #menuToggle.open {
