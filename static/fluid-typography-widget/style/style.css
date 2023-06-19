@@ -43,8 +43,21 @@ p {
 	text-indent: 2.5em;
 }
 
-h2 + p, h3 + p {
+h2 + p, h3 + p, h4 + p, ol + p {
 	text-indent: 0;
+}
+
+ol {
+	padding: 2rem 0 2rem 1.5rem;
+	margin: 0;
+}
+
+li {
+	padding-left: 2rem;
+}
+
+li:before {
+	padding-left: 0;
 }
 
 #textBox {
@@ -62,18 +75,22 @@ h2 + p, h3 + p {
 	hyphens: auto;
 }
 
-h2.chapter, h3.subsection {
+h2.chapter, h3.subsection, h4 {
 	font-family: "Space Grotesk";
+	margin: 0;
 }
 
 h2.chapter {
-	padding: 20rem 0 5rem 0;
+	padding: 20rem 0 10rem 0;
 }
 
 h3.subsection {
-	padding: 2rem 0 1rem 0;
+	padding: 4rem 0 2rem 0;
 }
 
+h4 {
+	padding: 2rem 0 0 0;
+}
 
 /** STYLING OF CONTROLS **/
 #controls {
@@ -179,14 +196,16 @@ button {
   	background: yellow;
   	color: black;
 
-  	padding: 0.5rem 1rem;
-
-  	box-shadow: 2px 2px 0px black;
+  	box-shadow: 5px 5px 0px black;
   	transition: box-shadow 300ms ease;
 }
 
 button:hover {
-	box-shadow: 4px 4px 0px black;
+	box-shadow: 3px 3px 0px black;
+}
+
+button:active {
+	box-shadow: 1px 1px 0px black;
 }
 
 #fontSizeChart, #leadingChart, #hierarchyChart {
