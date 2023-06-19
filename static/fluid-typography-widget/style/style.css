@@ -48,10 +48,10 @@ h2 + p, h3 + p {
 }
 
 #textBox {
-	box-sizing: content-box;
+	box-sizing: border-box;
 
-	width: 90vw;
-	max-width: 65ch;
+	width: 100vw;
+	max-width: calc(40em + 10vw);
 	margin: 0 auto 15em auto;
 	padding: 0 5vw 0 5vw;
 
@@ -78,22 +78,40 @@ h3.subsection {
 /** STYLING OF CONTROLS **/
 #controls {
 	position: fixed;
+	max-width: 100%;
+	width: 25rem;
+	overflow: visible;
+	z-index: 255;
+	transition: margin 700ms ease;
+}
+
+#parameters, #charts {
+	position: absolute;
 	z-index: 255;
 	box-sizing: border-box;
-	padding: 1rem 2rem 2rem 2rem;
+	padding: 6rem 2rem 2rem 2rem;
 
 	width: 100%;
+	max-width: 25rem;
+	
 	height: 100vh;
 
-	overflow: scroll;
-	
-	max-width: 22rem;
+	overflow-y: scroll;
+	overflow-x: visible;
 
 	background-color: yellow;
 
 	font-family: "Space Mono";
 
-	transition: margin 700ms ease;
+	transition: left 700ms ease;
+}
+
+#charts {
+	background-color: cyan;
+	max-width: 30rem;
+	overflow: visible;
+
+	z-index: 254;
 }
 
 #controls.show {
@@ -101,7 +119,15 @@ h3.subsection {
 }
 
 #controls.hide {
-	margin-left: -22rem;
+	margin-left: -25rem;
+}
+
+#charts.show {
+	left: 25rem;
+}
+
+#charts.hide {
+	left: 0rem;
 }
 
 h2.UI-text {
@@ -163,44 +189,57 @@ button:hover {
 	box-shadow: 4px 4px 0px black;
 }
 
-#menuToggle {
-	width: 2.5rem;
-	height: 2.5rem;
+#fontSizeChart, #leadingChart, #hierarchyChart {
+	margin-bottom: 2rem;
+}
+
+#buttons {
+	position: fixed;
+	z-index: 256;
+	padding: 1.5em;
+}
+
+#parametersToggle, #chartsToggle {
+	width: 3rem;
+	height: 3rem;
 
 	padding: 0;
 
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	font-weight: normal;
 	text-align: center;
 
 	box-sizing: border-box;
 
 	border-radius: 50%;
+	float: left;
+	margin-right: 1rem;
 
-	position: fixed;
 	top: 1.5rem;
 
 	z-index: 256;
-	transition: left 300ms ease, box-shadow 300ms ease;
+	transition: margin 300ms ease, box-shadow 300ms ease;
 }
 
-#menuToggle.open {
-	left: 18rem;
+#parametersToggle.open {
+	background-color: yellow;
+	margin-right: 22.5rem;
 }
 
-#menuToggle.closed {
-	left: 1.5rem;
+#parametersToggle.closed {
+	background-color: white;
 }
 
-#arrow  {
-	display: inline-block;
-	transition: transform 700ms;
+#chartsToggle.open {
+	background-color: cyan;
 }
 
-#menuToggle.open #arrow {
-	transform: rotate(180deg);
+#chartsToggle.closed {
+	background-color: white;
 }
 
-#menuToggle.closed #arrow {
-	transform: rotate(0deg);
+@media (max-width: 50rem) {
+	#parametersToggle.open {
+		margin-right: 1rem;
+	}
 }
