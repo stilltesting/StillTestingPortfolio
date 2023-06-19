@@ -199,17 +199,17 @@ button {
   	padding: 0.5rem 1rem;
 
   	box-shadow: 5px 5px 0px black;
-  	transition: box-shadow 300ms ease, margin 300ms ease;
+  	transition: transform 300ms ease, box-shadow 300ms ease;
 }
 
 button:hover {
 	box-shadow: 3px 3px 0px black;
-	margin: 2px 0 0 2px;
+	transform: translate(2px, 2px);
 }
 
 button:active {
 	box-shadow: 1px 1px 0px black;
-	margin: 4px 0 0 4px;
+	transform: translate(4px, 4px);
 }
 
 #fontSizeChart, #leadingChart, #hierarchyChart {
@@ -241,54 +241,39 @@ button:active {
 	top: 1.5rem;
 
 	z-index: 256;
-	transition: margin 300ms ease, box-shadow 300ms ease;
+	transition: margin 500ms ease
 }
 
 #parametersToggle.open {
 	background-color: yellow;
-	margin: 2px calc(22.5rem - 2px) 0 2px;
+	margin-right: 22.5rem;
+}
+
+#parametersToggle.open, #chartsToggle.open {
+	transform: translate(2px, 2px);
 	box-shadow: 3px 3px 0px black;
-}
-
-#parametersToggle.open:hover, #chartsToggle.open:hover {
-	box-shadow: 1px 1px 0px black;
-}
-
-#parametersToggle.open:hover {
-	margin: 4px calc(22.5rem - 4px) 0 4px;
-}
-
-#parametersToggle.closed {
-	background-color: white;
-}
-
-#parametersToggle.closed:hover {
-	margin: 2px calc(1rem - 2px) 0 2px;
-}
-
-#parametersToggle.closed:active {
-	margin: 4px calc(1rem - 4px) 0 4px;
 }
 
 #chartsToggle.open {
 	background-color: cyan;
-	box-shadow: 3px 3px 0px black;
 }
 
-#chartsToggle.closed {
+#parametersToggle.open:hover, #chartsToggle.open:hover {
+	transform: translate(4px, 4px);
+	box-shadow: 1px 1px 0px black;
+}
+
+#parametersToggle.open:hover {
+	transform: translate(4px, 4px);
+	box-shadow: 1px 1px 0px black;
+}
+
+#chartsToggle.closed, #parametersToggle.closed {
 	background-color: white;
 }
 
 @media (max-width: 50rem) {
 	#parametersToggle.open {
 		margin-right: 1rem;
-	}
-
-	#parametersToggle.closed:hover, #parametersToggle.open {
-		margin: 2px calc(1rem - 2px) 0 2px;
-	}
-
-	#parametersToggle.closed:active, #parametersToggle.open:hover {
-		margin: 4px calc(1rem - 4px) 0 4px;
 	}
 }
