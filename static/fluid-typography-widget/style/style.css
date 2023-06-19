@@ -283,4 +283,12 @@ button:active {
 	#parametersToggle.open {
 		margin-right: 1rem;
 	}
+
+	#parametersToggle.closed:hover, #parametersToggle.open {
+		margin: 2px calc(1rem - 2px) 0 2px;
+	}
+
+	#parametersToggle.closed:active, #parametersToggle.open:hover {
+		margin: 4px calc(1rem - 4px) 0 4px;
+	}
 }
