@@ -3,6 +3,11 @@
     src: url("../Fonts/VariableCompVF.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
+}
+
 
 body {
 	background-color: GhostWhite;

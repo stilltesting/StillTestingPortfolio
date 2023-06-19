@@ -27,10 +27,12 @@
 
                 //Compute font width according to vieport ratio
                 var x = w/h*500;
+                var y = 25 + 125 * (w/h - 0.5) / 1.5;
+                var z = 300 + 300 * (w/h - 0.5) / 1.5
 
                 //Set font width for the components
-                document.getElementById("componentA").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000");
-                document.getElementById("componentB").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000");
+                document.getElementById("componentA").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000)");
+                document.getElementById("componentB").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000)");
             }
 
             //Set font width on page load
