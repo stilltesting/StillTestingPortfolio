@@ -199,7 +199,7 @@ button {
   	padding: 0.5rem 1rem;
 
   	box-shadow: 5px 5px 0px black;
-  	transition: transform 300ms ease, box-shadow 300ms ease;
+  	transition: transform 300ms ease, box-shadow 300ms ease, margin 500ms ease;
 }
 
 button:hover {
@@ -241,7 +241,6 @@ button:active {
 	top: 1.5rem;
 
 	z-index: 256;
-	transition: margin 500ms ease
 }
 
 #parametersToggle.open {
