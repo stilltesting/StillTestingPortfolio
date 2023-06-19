@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Variable Components</title>
+
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body onresize="adapt()">
+	<div id="wrapper">
+		<div id="componentA">A</div>
+        <div id="componentB">B</div>
+	</div>
+
+	<script>
+            function adapt() {
+                //Get vieport width
+                var w = window.innerWidth
+                || document.documentElement.clientWidth
+                || document.body.clientWidth;
+
+                //Get vieport height
+                var h = window.innerHeight
+                || document.documentElement.clientHeight
+                || document.body.clientHeight;
+
+                //Compute font width according to vieport ratio
+                var x = w/h*500;
+
+                //Set font width for the components
+                document.getElementById("componentA").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000");
+                document.getElementById("componentB").style.fontVariationSettings = ("'wdth' clamp(250," + x + ", 1000");
+            }
+
+            //Set font width on page load
+            document.addEventListener('DOMContentLoaded', adapt());
+        </script>
+</body>
+
+</html>

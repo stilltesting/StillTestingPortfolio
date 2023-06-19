@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "VariableComp";
+    src: url("../Fonts/VariableCompVF.ttf") format("truetype");
+}
+
+
+body {
+	background-color: GhostWhite;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	display: flex;
+	container-type: size;
+	width: 100vw;
+	height: 100vh;
+
+	max-width: 200vh;
+	max-height: 200vw;
+	
+	padding: 0;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+#componentA, #componentB {
+	font-family: VariableComp;
+
+	position: absolute;
+
+	display: block;
+	top: 0;
+	left: 0;
+	font-size: 100cqh;
+	line-height: 1em;
+	padding: 0;
+
+	text-align: center;
+}
+
+#componentA {
+	color: #222222;
+}
+
+#componentB {
+	color: #E84E0F;
+}
