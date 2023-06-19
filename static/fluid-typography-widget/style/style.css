@@ -82,7 +82,7 @@ h3.subsection {
 	width: 25rem;
 	overflow: visible;
 	z-index: 255;
-	transition: margin 700ms ease;
+	transition: margin 500ms ease;
 }
 
 #parameters, #charts {
@@ -103,7 +103,7 @@ h3.subsection {
 
 	font-family: "Space Mono";
 
-	transition: left 700ms ease;
+	transition: left 500ms ease;
 }
 
 #charts {
@@ -218,7 +218,7 @@ button:hover {
 	top: 1.5rem;
 
 	z-index: 256;
-	transition: margin 300ms ease, box-shadow 300ms ease;
+	transition: margin 500ms ease, box-shadow 300ms ease;
 }
 
 #parametersToggle.open {
