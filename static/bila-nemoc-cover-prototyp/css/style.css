@@ -140,6 +140,29 @@ h2 {
     height: 100%;
 }
 
+a.next, a.prev {
+    display: block;
+    position: fixed;
+
+    padding: 0;
+    margin: 0;
+
+    width: 50%;
+    height: 100%;
+
+    z-index: 255;
+}
+
+a.next {
+    top: 0;
+    right: 0;
+}
+
+a.prev {
+    top: 0;
+    left: 0;
+}
+
 @media (max-aspect-ratio: 1/1) {
     body {
         font-size: 8vw;
