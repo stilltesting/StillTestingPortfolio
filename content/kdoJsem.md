@@ -9,7 +9,7 @@ layout: "kdoJsem"
 		<h2>Matěj Málek</h2>
 	</div>
 	<div class="perex">
-		<p>Jsem grafický designér na volné noze a&nbsp;doktorský student v&nbsp;Ateliéru grafického designu na Fakultě multimediálních komunikací na Univerzitě Tomáše Bati ve Zlíně. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem též logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a&nbsp;okrajově i&nbsp;webům. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
+		<p>Jsem grafický designér na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem též logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a&nbsp;okrajově i&nbsp;webům. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
 	</div>
 	<div style="clear: both;"></div>
 </div>
@@ -17,6 +17,7 @@ layout: "kdoJsem"
 
 ## dosažené vzdělání ##
 
+* <span class="rok">2018—2023 </span>Fakulta multimediálních komunikací Univerzity Tomáše Bati&nbsp;— doktorský studijní program Výtvarná umění, disertační práce: Písmo a&nbsp;typografie v&nbsp;post-tiskovém prostředí (školitel: Pavel Noga) →&nbsp;[odkaz](https://digilib.k.utb.cz/bitstream/handle/10563/52436/m%C3%A1lek_2023_dp.pdf?sequence=-1)
 * <span class="rok">2011—2014 </span>Fakulta informatiky Masarykovy univerzity&nbsp;— navazující magisterský program Aplikovaná informatika se specializací Grafický design, diplomová práce: Čitelnost písma, návrh písma s&nbsp;vysokou čitelností a&nbsp;rasterizace fontů (vedoucí práce: Lukáš Pevný) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_m/malek-diplomova_prace.pdf)
 * <span class="rok">2007—2011 </span>Fakulta informatiky Masarykovy univerzity&nbsp;— bakalářský program Aplikovaná informatika se specializací Grafický design, bakalářská práce: Rekonstrukce a&nbsp;analýza benátské antikvy Nicolase Jensona (vedoucí práce: Vítězslav Švalbach) →&nbsp;[odkaz](https://is.muni.cz/th/hqzjg/text_BP.pdf)
 
