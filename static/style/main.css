@@ -77,7 +77,7 @@ body {
 	width: 100vw;
 	display: block;
 	box-sizing: border-box;
-	padding: 0 3vw 0 3vw;
+	padding: 0 1vw 0 1vw;
 	position: fixed;
 	z-index: 255;
 }
@@ -96,12 +96,12 @@ body {
 	padding: 0;
 	margin: 0;
 	float: left;
-	width: 46.5vw;
+	width: 48.5vw;
 }
 
 #menu {
 	float: left;
-	width: 46.5vw;
+	width: 48.5vw;
 	margin-left: 1vw;
 }
 
@@ -321,11 +321,11 @@ body {
 	display: flex;
 	box-sizing: border-box;
 	align-items: baseline;
-	padding: 200px 3vw 200px 3vw;
+	padding: 200px 1vw 200px 1vw;
 }
 
 .bio {
-	width: 46.5vw;
+	width: 48.5vw;
 	float: left;
 }
 
@@ -343,7 +343,7 @@ body {
 	box-sizing: border-box;
 	display: block;
 	float: left;
-	width: 46.5vw;
+	width: 48.5vw;
 	margin-left: 1vw;
 	padding: 0;
 	font-weight: normal;
