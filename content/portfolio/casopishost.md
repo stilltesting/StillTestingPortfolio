@@ -5,7 +5,7 @@ projecttype: "časopis"
 projectyear: "2023"
 class: "portfolio"
 draft: false
-index: 7
+index: 25
 bgcolor: "#14141e"
 ---
 
