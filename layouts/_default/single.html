@@ -23,7 +23,7 @@
 	<div class="gallery">
 		{{ $fileName := .File.TranslationBaseName }}
 		{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
-			<img src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
+			<img loading="lazy" src="/images/portfolio/{{ $fileName }}/{{ .Name }}">
 		{{ end }}
 		<div style="clear: both;"></div>
 	</div>
