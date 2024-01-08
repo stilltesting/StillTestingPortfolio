@@ -68,7 +68,7 @@ body {
 
 .bio h2 {
 	font-size: calc(3 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
-	line-height: 1.7em;
+	line-height: 1.3em;
 }
 
 /**HEADER**/
