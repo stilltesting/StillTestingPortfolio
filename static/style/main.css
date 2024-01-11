@@ -60,7 +60,7 @@ body {
 	width: 100vw;
 	display: block;
 	box-sizing: border-box;
-	padding: 0 3vw 0 3vw;
+	padding: 1vw;
 	position: fixed;
 	z-index: 255;
 	column-count: 2;
@@ -95,26 +95,13 @@ body {
 
 #menu {
 	float: left;
+	width: 100%;
 }
 
 .menuItem {
 	padding-right: 1em;
 	float: left;
 	position: relative;
-}
-
-.menuItem:after {
-	content: "";
-	display: block;
-	width: 0;
-	height: 0.1em;
-	margin: 0.1em auto 0 auto;
-	transition: width 0.2s ease;
-	position: relative;
-}
-
-.menuItem:hover:after{
-	width: 100%;
 }
 
 /**COVER**/
