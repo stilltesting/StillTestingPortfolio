@@ -1,7 +1,7 @@
 /** VARIABLES **/
 :root {
 	--offWhite: #F8F6F1;
-	--black: #000;
+	--black: #1E1E1E;
 	--blue: #0000E4;
 	--red: #FE5E00;
 }
@@ -97,6 +97,18 @@ p {
 	font-size: 5.5vw;
 }
 
+.cv ul {
+	padding: 1em 0 0 2em;
+	margin: 0;
+	list-style: none;
+}
+
+.cv li:before {
+    content: "—";
+    position: absolute;
+    margin-left: -2em;
+}
+
 /**EMPHASIS**/
 .lowercase {
 	text-transform: none;
@@ -164,7 +176,7 @@ p {
 
 .portfolioItem {
 	width: 1fr;
-	aspect-ratio: 1 / 1;
+	aspect-ratio: 1 / 1.1;
 }
 
 .portfolioItem a, .overlay {
@@ -196,7 +208,7 @@ p {
 
 a:hover .overlay {
 	opacity: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .projectName, .projectType {

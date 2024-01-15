@@ -34,7 +34,8 @@ grafický designér na volné noze&nbsp;— zprvu práce při studiu, od roku 20
 * KISK FF MU&nbsp;— grafická úprava a&nbsp;sazba knih a&nbsp;příprava dalších materiálů (od&nbsp;2013)
 * Libdesign&nbsp;— řešení vizuálního stylu (kromě webu) a&nbsp;publikací, příprava vizuálních stylů pro konference a&nbsp;workshopy (od&nbsp;2015)
 * Divadlo Feste&nbsp;— řešení propagačních materiálů a&nbsp;vizuálního stylu (od&nbsp;března&nbsp;2016)
-* Nakladatelství a časopis Host&nbsp;— grafická úprava a&nbsp;sazba jednotlivých čísel časopisu Host podle připravené osnovy, spolupráce s&nbsp;ilustrátory; knižní grafika (od&nbsp;prosince&nbsp;2018)
+* Časopis Host&nbsp;— grafická úprava a&nbsp;sazba jednotlivých čísel časopisu Host podle připravené osnovy, spolupráce s&nbsp;ilustrátory, pro&nbsp;rok 2023 zpracován kompletní redesign (od&nbsp;2018)
+* Nakladatelství&nbsp;Host — knižní grafika (od&nbsp;2018)
 
 ### 2014—2017 ###
 podíl na výuce kurzu Vizualizace dat na Filozofické fakultě MU&nbsp;— podíl na části přednášek týkajících se efektivní vizualizace a&nbsp;problematiky epistemologie ve vizualizaci
