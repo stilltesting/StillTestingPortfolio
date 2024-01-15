@@ -125,15 +125,18 @@ p {
 .headline {
 	justify-content: center;
 	width: 100%;
+	padding: 1em;
 }
 
-.description, .cv {
+.description, .bio {
 	align-items: baseline;
 	justify-items: stretch;
 
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(30em, calc((100% - 2em) /2))), 1fr));
 	column-gap: 2em;
+
 	margin-bottom: 5em;
+	padding: 1em;
 }
 
 .info {
