@@ -1,7 +1,10 @@
 ---
 title: "Sborník konference BOBCATSSS 2015"
 projectclient: "KISK FF MU"
-projecttype: "publikace"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2015"
 class: "portfolio"
 draft: false

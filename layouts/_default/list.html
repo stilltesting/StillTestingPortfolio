@@ -18,8 +18,12 @@
 				<a href="{{ .Permalink }}" class="portfolioLink black" style="background: url(/images/portfolio/ikony/{{ .File.TranslationBaseName }}.jpg) center center no-repeat; background-size: cover;">
 					<span class="overlay">
 						<p>
-							<!--<span class="projectName">{{ .Title }}</span>-->
-							<span class="projectType">{{.Params.projecttype}}</span>
+							<span class="projectName">{{ .Title }}</span>
+							<span class="projectType">
+								{{ range .Keywords }}
+  									<span class="keyword">{{ . }}</span>
+								{{ end }}
+							</span>
 						</p>
 					</span>
 				</a>

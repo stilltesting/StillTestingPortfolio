@@ -9,7 +9,7 @@
 	<div class="module description">
 		<div class="info">
 			<p id="projectClient">klient: {{.Params.projectclient | markdownify}}</p>
-			<p id="projectType">typ: {{.Params.projecttype}}</p>
+			<p id="projectType">typ: {{ delimit .Keywords ", " }}</p>
 			<p id="projectYear">rok: {{.Params.projectyear}}</p>
 		</div>
 

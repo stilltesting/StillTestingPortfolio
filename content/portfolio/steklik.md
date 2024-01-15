@@ -1,7 +1,10 @@
 ---
 title: "Steklík"
 projectclient: "Nakladatelství Host a&nbsp;Dům umění města Brna"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2021"
 class: "portfolio"
 draft: false

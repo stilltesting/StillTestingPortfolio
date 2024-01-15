@@ -1,7 +1,10 @@
 ---
 title: "Karty Libdesign pro sociální inovace"
 projectclient: "KISK FF MU"
-projecttype: "grafický design + ilustrace"
+keywords: 
+- grafický design
+- typografie
+- ilustrace
 projectyear: "2018"
 class: "portfolio"
 draft: false

@@ -1,7 +1,10 @@
 ---
 title: "Island"
 projectclient: "Štěpán Borkovec"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2018"
 class: "portfolio"
 draft: false

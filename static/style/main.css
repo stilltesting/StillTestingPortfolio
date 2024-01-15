@@ -4,6 +4,7 @@
 	--black: #1E1E1E;
 	--blue: #0000E4;
 	--red: #FE5E00;
+	--yellow: #FFC400;
 }
 
 body {
@@ -208,13 +209,26 @@ p {
 
 a:hover .overlay {
 	opacity: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .projectName, .projectType {
 	display: block;
 	position: relative;
 	width: 100%;
+}
+
+.keyword {
+	font-size: 0.75em;
+
+	display: inline-block;
+	box-sizing: border-box;
+
+	background-color: var(--yellow);
+	color: var(--black);
+	
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	border-radius: 1em;
 }
 
 /** CONTACT **/

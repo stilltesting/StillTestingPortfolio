@@ -1,7 +1,10 @@
 ---
 title: "K čemu je design služeb"
 projectclient: "KISK FF MU"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2014"
 class: "portfolio"
 draft: false

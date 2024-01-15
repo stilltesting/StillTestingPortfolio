@@ -1,7 +1,10 @@
 ---
 title: "Redesign časopisu Host"
 projectclient: "Spolek přátel vydávání časopisu HOST"
-projecttype: "layout + vizuální styl + typografie"
+keywords: 
+- layout 
+- vizuální styl
+- typografie
 projectyear: "2023"
 class: "portfolio"
 draft: false

@@ -1,8 +1,11 @@
 ---
 title: "divadlo Feste"
 projectclient: "divadlo Feste"
-projecttype: "plakáty"
-projectyear: "2016—2020"
+keywords: 
+- plakát
+- typografie
+- vizuální styl
+projectyear: "od 2016"
 class: "portfolio"
 draft: false
 index: 10

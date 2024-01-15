@@ -1,7 +1,10 @@
 ---
 title: "Už zase vyšlo slunce"
 projectclient: "Nakladatelství Host"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2022"
 class: "portfolio"
 draft: false

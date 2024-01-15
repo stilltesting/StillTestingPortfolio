@@ -1,7 +1,10 @@
 ---
 title: "Karty 35 metod pro lepší služby"
 projectclient: "KISK FF MU"
-projecttype: "grafický design + ilustrace"
+keywords: 
+- grafický design
+- typografie
+- ilustrace
 projectyear: "2015"
 class: "portfolio"
 draft: false

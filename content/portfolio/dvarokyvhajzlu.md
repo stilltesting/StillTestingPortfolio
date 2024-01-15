@@ -1,7 +1,10 @@
 ---
 title: "Dva roky v hajzlu"
 projectclient: "Nakladatelství Host"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- ilustrace
 projectyear: "2021"
 class: "portfolio"
 draft: false

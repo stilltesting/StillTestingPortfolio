@@ -1,7 +1,9 @@
 ---
 title: "Slepé skvrny"
 projectclient: "Nakladatelství Host"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
 projectyear: "2019"
 class: "portfolio"
 draft: false

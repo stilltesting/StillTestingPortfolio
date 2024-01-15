@@ -1,7 +1,9 @@
 ---
 title: "Projekt One Word, Two Colors"
 projectclient: "volná tvorba"
-projecttype: "typografie"
+keywords: 
+- typografie
+- volná grafika
 projectyear: "2015"
 class: "portfolio"
 layout: "single.2col"

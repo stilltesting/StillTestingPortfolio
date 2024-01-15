@@ -1,7 +1,10 @@
 ---
 title: "Udržitelná města"
 projectclient: "Nesehnutí"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2022"
 class: "portfolio"
 draft: false

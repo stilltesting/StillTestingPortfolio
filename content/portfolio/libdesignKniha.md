@@ -1,7 +1,10 @@
 ---
 title: "Knihovníci jako designéři"
 projectclient: "KISK FF MU"
-projecttype: "kniha"
+keywords: 
+- obálka
+- typografie
+- sazba
 projectyear: "2016"
 class: "portfolio"
 draft: false
