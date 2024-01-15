@@ -239,10 +239,12 @@ a:hover .overlay {
 
 .menu {
 	display: flex;
-	gap: 2em;
+	column-gap: 2em;
+	row-gap: 0em;
 	margin: 0;
 
 	flex-wrap: wrap;
+	justify-content: flex-end;
 }
 
 .menu li {
@@ -340,4 +342,15 @@ a:hover .overlay {
     from {font-variation-settings: "DFRM" 1000;}
     50% {font-variation-settings: "DFRM" 1;}
     to {font-variation-settings: "DFRM" 1000;}
+}
+
+/** MEDIA QUERIES **/
+@media screen and (max-width: 700px) {
+	.menu {
+		flex-direction: column;
+	}
+	
+	a.menuItem {
+		width: 100%;
+	}
 }
