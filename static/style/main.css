@@ -43,22 +43,13 @@ h2, h3, p, ul, li {
 	font-size: 1em;
 	line-height: 1.3em;
 
-	font-variation-settings: "wght" 475;
+	font-variation-settings: "wght" 575;
 }
 
 .perex p, .menuItem, .title {
 	font-size: 1.5em;
 	line-height: 1.3em;
 
-	font-variation-settings: "wght" 475;
-}
-
-.perex p {
-	font-variation-settings: "wght" 475;
-}
-
-
-.menuItem, .title {
 	font-variation-settings: "wght" 550;
 }
 
@@ -70,7 +61,7 @@ h1 {
 	line-height: 1.3em;
 
 	text-transform: uppercase;
-	font-variation-settings: "wght" 350;
+	font-variation-settings: "wght" 400;
 
 	max-width: 50em;
 	margin: 3em auto 3em auto;
