@@ -14,7 +14,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-size: clamp(18px, calc(15px + 15 * ((100vw - 480px) / 2520)), 30px);
+	font-size: clamp(18px, calc(18px + 12 * ((100vw - 480px) / 2520)), 30px);
 }
 
 /** COLORS **/
@@ -151,7 +151,7 @@ p {
 .portfolioList {
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 1.5em) /4))), 1fr));
 	gap: 0.5em;
-	margin-top: 95vh;
+	margin-top: 90vh;
 }
 
 .portfolioItem {
@@ -267,7 +267,7 @@ a:hover .overlay {
 /**COVER**/
 #cover {
 	width: 100vw;
-	height: 95vh;
+	height: 90vh;
 
 	box-sizing: border-box;
 
@@ -317,7 +317,7 @@ a:hover .overlay {
 	padding-top: 5vh;
 	top: 0;
 	width: 100vw;
-	height: 95vh;
+	height: 90vh;
 	color: #ff5e00;
 	display: flex;
 	align-items: center;
