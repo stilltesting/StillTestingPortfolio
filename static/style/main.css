@@ -131,8 +131,12 @@ p {
 	justify-items: stretch;
 
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(30em, calc((100% - 2em) /2))), 1fr));
-	gap: 2em;
+	column-gap: 2em;
 	margin-bottom: 5em;
+}
+
+.info {
+	margin-bottom: 3em;
 }
 
 .gallery {
@@ -356,5 +360,9 @@ a:hover .overlay {
 
 	h1 {
 		margin: 4em auto 1em auto;
+	}
+
+	.description {
+		margin-bottom: 3em;
 	}
 }
