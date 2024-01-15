@@ -3,6 +3,7 @@
 	--offWhite: #F8F6F1;
 	--black: #000;
 	--blue: #0000E4;
+	--red: #FE5E00;
 }
 
 body {
@@ -50,6 +51,15 @@ h2, h3, p, ul, li {
 	line-height: 1.3em;
 
 	font-variation-settings: "wght" 475;
+}
+
+.perex p {
+	font-variation-settings: "wght" 475;
+}
+
+
+.menuItem, .title {
+	font-variation-settings: "wght" 550;
 }
 
 h1 {
