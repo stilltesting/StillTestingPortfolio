@@ -45,7 +45,7 @@ h2, h3, p, ul, li {
 	font-variation-settings: "wght" 475;
 }
 
-.perex p, .menuItem, .title, .info p {
+.perex p, .menuItem, .title {
 	font-size: 1.5em;
 	line-height: 1.3em;
 
