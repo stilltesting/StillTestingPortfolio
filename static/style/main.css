@@ -128,8 +128,6 @@ p {
 }
 
 .description, .cv {
-	padding: 2em;
-
 	align-items: baseline;
 	justify-items: stretch;
 
@@ -236,7 +234,7 @@ a:hover .overlay {
 
 	box-sizing: border-box;
 	width: 100%;
-	padding: 2em;
+	padding: 1em;
 
 	position: fixed;
 	top: 0;
