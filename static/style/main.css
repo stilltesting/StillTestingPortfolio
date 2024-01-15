@@ -56,7 +56,7 @@ h1 {
 	display: block;
 	text-align: center;
 
-	font-size: 4em;
+	font-size: clamp(3em, calc(4em - 30 * (30px - 1em) / 12), 4em);;
 	line-height: 1.3em;
 
 	text-transform: uppercase;
@@ -349,7 +349,7 @@ a:hover .overlay {
 	.menu {
 		flex-direction: column;
 	}
-	
+
 	a.menuItem {
 		width: 100%;
 	}
