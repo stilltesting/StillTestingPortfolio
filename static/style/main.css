@@ -353,4 +353,8 @@ a:hover .overlay {
 	a.menuItem {
 		width: 100%;
 	}
+
+	h1 {
+		margin: 4em auto 1em auto;
+	}
 }
