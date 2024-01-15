@@ -2,19 +2,16 @@
 
 </head>
 
-<body>
+<body class="blue">
 	{{ partial "header" . }}
-	<div id="wrapper" class="blue">
 
-		<div id="contact">
-			{{ .Content }}
-		</div>
-
-		<div id="tradeInfo">
-			<h3>Matěj Málek</h3>
-			<p>Zemědělská&nbsp;1668/6, 613&nbsp;00&nbsp;Brno</p>
-			<p>IČO: 02812304</p>
-			<p>Podnikatel zapsán v&nbsp;živnostenském rejstříku Magistrátu&nbsp;města&nbsp;Brna</p>
-		</div>
+	<div class="module contact">
+		{{ .Content }}
+	</div>
+	<div id="tradeInfo">
+		<h3>Matěj Málek</h3>
+		<p>Zemědělská&nbsp;1668/6, 613&nbsp;00&nbsp;Brno</p>
+		<p>IČO: 02812304</p>
+		<p>Podnikatel zapsán v&nbsp;živnostenském rejstříku Magistrátu&nbsp;města&nbsp;Brna</p>
 	</div>
 </body>

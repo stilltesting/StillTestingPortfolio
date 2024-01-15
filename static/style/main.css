@@ -1,142 +1,278 @@
-html {
-	font-size: 7px;
+/** VARIABLES **/
+:root {
+	--offWhite: #F8F6F1;
+	--black: #000;
+	--blue: #0000E4;
 }
 
 body {
-	font-family: "Aktiv-Grotesk-Extended";
+	font-family: "indivisible-variable";
+	font-weight: 500;
 
 	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
+
+	font-size: clamp(18px, calc(15px + 15 * ((100vw - 480px) / 2520)), 30px);
 }
 
-#wrapper {
-	width: 100%;
-	height: 100vh;
-
-	overflow-x: hidden;
-	perspective: 10px;
-	perspective-origin: 50% 50%;
-}
-
-/**COLOR**/
+/** COLORS **/
 .white {
-	color: black;
-}
-
-.white a.menuItem, .white a {
-	color: black;
-}
-
-.black, .portfolioLink.black {
-	background-color: black;
-	color: white;
-}
-
-.black a.menuItem, .black a {
-	color: white;
-}
-
-.black .menuItem:after {
-	background-color: white;
-}
-
-.white .menuItem:after {
-	background-color: black;
+	background-color: var(--offWhite);
+	color: var(--black);
 }
 
 .blue {
-	color: white;
-	background-color: #3800ff;
+	background-color: var(--blue);
+	color: var(--offWhite);
 }
 
-.blue a {
-	color: white;
-	text-decoration: none;	
+/** CLEARS **/
+a, a:hover, a:visited {
+	color: var(--black);
 }
 
-/**FONT SIZE**/
-#cv, #cv h2, .bio h3, #tradeInfo h3, #tradeInfo p {
-	font-size: clamp(2.286rem, 1vw + 1rem, 3.571rem);
-	line-height: 1.7em;
-}
-
-.perex p, #title, .menuItem {
-	font-size: calc(1.5 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
-	line-height: 1.7em;
-}
-
-.bio h2 {
-	font-size: calc(3 * clamp(2.286rem, 1vw + 1rem, 3.571rem));
-	line-height: 1.3em;
-}
-
-/**HEADER**/
-
-#header {
-	width: 100vw;
-	display: block;
-	box-sizing: border-box;
-	padding: 0 3vw 0 3vw;
-	position: fixed;
-	z-index: 255;
-	column-count: 2;
-	column-gap: 1vw;
-}
-
-#header h1 {
-	margin: 0;
-	padding: 0;
-}
-
-.scrollUp {
- 	transform: translateY(-150px)
-}
-
-#title, .menuItem {
-	display: block;
+a.menuItem, a.title {
 	text-decoration: none;
-	font-weight: bold;
 }
 
-#title {
-	padding: 0;
-	margin: 0;
-	float: left;
+/**TYPOGRAPHY**/
+h2, h3, p, ul, li {
+	font-size: 1em;
+	line-height: 1.3em;
+
+	font-variation-settings: "wght" 475;
 }
 
-#menu {
-	float: left;
-	width: 100%;
+.perex p, .menuItem, .title, .info p {
+	font-size: 1.5em;
+	line-height: 1.3em;
+
+	font-variation-settings: "wght" 475;
 }
 
-.menuItem {
-	padding-right: 1em;
-	float: left;
-	position: relative;
-}
-
-.menuItem:after {
-	content: "";
+h1 {
 	display: block;
-	width: 0;
-	height: 0.1em;
-	margin: 0.1em auto 0 auto;
-	transition: width 0.2s ease;
-	position: relative;
+	text-align: center;
+
+	font-size: 4em;
+	line-height: 1.3em;
+
+	text-transform: uppercase;
+	font-variation-settings: "wght" 350;
+
+	max-width: 50em;
+	margin: 3em auto 3em auto;
 }
 
-.menuItem:hover:after{
+h2 {
+	margin: 2em 0 1em 0;
+}
+
+h3 {
+	margin: 1.5em 0 0 0;
+}
+
+p {
+	margin: 0;
+}
+
+.menuItem, .title, h2, .projectName {
+	text-transform: uppercase;
+}
+
+.perex p, p, li {
+	max-width: 50ch;
+}
+
+.projectName {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-variation-settings: "wght" 600;
+}
+
+.contact h1 {
+	font-size: 5.5vw;
+}
+
+/**EMPHASIS**/
+.lowercase {
+	text-transform: none;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.medium {
+	font-weight: 400;
+}
+
+/** STRUCTURE **/
+.module {
+	display: grid;
+
+	box-sizing: border-box;
+	
 	width: 100%;
+
+	margin: 0;
+	padding: 1em;
+}
+
+.headline {
+	justify-content: center;
+	width: 100%;
+}
+
+.description, .cv {
+	align-items: baseline;
+	justify-items: stretch;
+
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(30em, calc((100% - 2em) /2))), 1fr));
+	gap: 2em;
+	margin-bottom: 5em;
+}
+
+.gallery {
+	gap: 0.5em;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.columns {
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 1em) /3))), 1fr));
+}
+
+/** PORTFOLIO LIST **/
+.portfolioList {
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 1.5em) /4))), 1fr));
+	gap: 0.5em;
+	margin-top: 95vh;
+}
+
+.portfolioItem {
+	width: 1fr;
+	aspect-ratio: 1 / 1;
+}
+
+.portfolioItem a, .overlay {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	text-decoration: none;
+	text-align: center;
+
+	color: var(--offWhite);
+}
+
+.overlay {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0;
+
+	box-sizing: border-box;
+	padding: 3em;
+
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 0%;
+
+	transition: opacity ease-in-out 250ms;
+}
+
+a:hover .overlay {
+	opacity: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.projectName, .projectType {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+/** CONTACT **/
+
+.contact {
+	width: 100vw;
+	height: 100vh;
+
+	align-items: center;
+	justify-content: center;
+}
+
+/**TRADE INFO**/
+#tradeInfo {
+	position: absolute;
+	width: 46.5vw;
+	margin-left: 50.5vw;
+	bottom: 3vh;
+	color: white;
+}
+
+#tradeInfo h3, #tradeInfo p {
+	margin: 0;
+	padding: 0;
+}
+
+/** MENU **/
+.header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	box-sizing: border-box;
+	width: 100%;
+	padding: 1em;
+
+	position: fixed;
+	top: 0;
+
+	z-index: 255;
+}
+
+.menu {
+	display: flex;
+	gap: 2em;
+	margin: 0;
+
+	flex-wrap: wrap;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.header .title, .header .menuItem {
+	line-height: 1em;
+}
+
+.header a:hover, .header li:hover {
+	animation: wiggle 250ms infinite;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(5deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
 }
 
 /**COVER**/
 #cover {
 	width: 100vw;
 	height: 95vh;
-	max-height: 100vw;
 
 	box-sizing: border-box;
+
+	position: absolute;
+	top: 0;
 
 	display: flex;
 	align-items: center;
@@ -144,10 +280,11 @@ body {
 
 	margin: 0;
 	padding: 5vh 0 0 0;
-	background-color: #3800ff;
+	background-color: #0000e4;
 
 	color: white;
 	font-family: StillTestingLogo;
+	z-index: 0;
 }
 
 /**COVER ANIMATION**/
@@ -181,7 +318,6 @@ body {
 	top: 0;
 	width: 100vw;
 	height: 95vh;
-	max-height: 100vw;
 	color: #ff5e00;
 	display: flex;
 	align-items: center;
@@ -204,361 +340,4 @@ body {
     from {font-variation-settings: "DFRM" 1000;}
     50% {font-variation-settings: "DFRM" 1;}
     to {font-variation-settings: "DFRM" 1000;}
-}
-
-/**SUBHEADING**/
-#subheading {
-	font-size: 4vw;
-	line-height: 4.5vw;
-	text-align: center;
-	color: white;
-}
-
-.arrow {
-	display: inline-block;
-	width: 13vw;
-	position: relative;
-	top: 0.3vw;
-}
-
-/**PORTFOLIO LIST**/
-#portfolioList {
-	width: 100vw;
-	box-sizing: border-box;
-	padding-top: 1vw;
-	padding-left: 1vw;
-	z-index: 1;
-}
-
-.portfolioItem {
-	display: block;
-	width: 32vw;
-	margin: 0 1vw 1vw 0;
-	height: 28vw;
-	float: left;
-
-	overflow: hidden;
-}
-
-.portfolioLink{
-	display: block;
-
-	width: 100%;
-	height: 100%;
-
-	position: relative;
-	float: left;
-
-	text-decoration: none;
-
-	-webkit-transition: all 4s ease;
-    -moz-transition: all 4s ease;
-    -o-transition: all 4s ease;
-    transition: all 4s ease;
-}
-
-/**.portfolioLink:hover {
-	padding: 50px;
-	margin: -50px;
-}**/
-
-.overlay {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	box-sizing: border-box;
-	width: 100%;
-	height: 100%;
-
-	padding: 2vw 3vw;
-
-	background-color: rgba(0, 0, 0, 0);
-
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-.overlay p {
-	width: 100%;
-}
-
-.portfolioLink:hover .overlay {
-		background-color: rgba(0, 0, 0, 0.5);
-}
-
-.projectName, .projectType {
-	font-size: 1.8vw;
-	line-height: 2.3vw;
-	color: rgba(255, 255, 255, 0);;
-
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-.projectName {
-	font-weight: Bold;
-}
-
-.portfolioLink:hover .projectName, .portfolioLink:hover .projectType {
-	color: rgba(255, 255, 255, 1);;
-}
-
-/**
-.portfolioItem:after {
-	content: "";
-	position: absolute;
-	display: block;
-	box-sizing: border-box;
-
-	width: 40vw;
-	height: 25vw;
-	border: 1px solid black;
-	margin: 10px 0 0 10px;
-	top: 0;
-	left: 0;
-}
-**/
-
-/**PORTFOLIO PAGE**/
-
-#description {
-	width: 100vw;
-	display: flex;
-	box-sizing: border-box;
-	align-items: baseline;
-	padding: 200px 3vw 200px 3vw;
-}
-
-.bio {
-	width: 46.5vw;
-	float: left;
-}
-
-.bio h2 {
-	margin: 0 0 0.85em 0;
-}
-
-.bio h3 {
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-}
-
-.perex {
-	box-sizing: border-box;
-	display: block;
-	float: left;
-	width: 46.5vw;
-	margin-left: 1vw;
-	padding: 0;
-	font-weight: normal;
-}
-
-.perex p {
-	margin: 0;
-	max-width: 50ch;
-}
-
-.gallery {
-	width: 99vw;
-	margin: 0 0 0 1vw;
-}
-
-.gallery img {
-	width: 98vw;
-	float: left;
-	margin-bottom: 1vw;
-}
-
-.gallery.twoCol img {
-	width: 48.5vw;
-	margin: 0 1vw 1vw 0;
-}
-
-.gallery.twoCol img.gif {
-	box-sizing: border-box;
-	padding: 5%;
-	width: 48.5vw;
-	margin: 0 1vw 1vw 0;
-}
-
-.fullscreen {
-	display: block;
-	width: 100vw;
-	height: 100vh;
-}
-
-iframe.fullscreen {
-	border: none;
-}
-
-/**CONTACT**/
-
-#contact {
-	display: block;
-	position: absolute;
-	width: 94vw;
-	height: 8vw;
-	font-size: 6vw;
-	text-align: center;
-	margin: auto;
-	top: 0;
-	bottom:  0;
-	left: 0;
-	right: 0;
-	font-weight: bold;
-}
-
-#contact p {
-	padding: 0;
-	margin: 0;
-}
-
-/**TRADE INFO**/
-#tradeInfo {
-	position: absolute;
-	width: 46.5vw;
-	margin-left: 50.5vw;
-	bottom: 3vh;
-	color: white;
-}
-
-#tradeInfo h3, #tradeInfo p {
-	margin: 0;
-	padding: 0;
-}
-
-/**CV**/
-#cv {
-	display: block;
-	box-sizing: border-box;
-	width: 46.5vw;
-	margin: 0 3vw 0 50.5vw;
-	float: left;
-	padding-bottom: 30vh;
-}
-
-#cv h2 {
-	margin-top: 2em;
-}
-
-#cv li, #cv h2 {
-	margin: 0 0 1.7em 0;
-}
-
-#cv .rok {
-	display: inline-block;
-	box-sizing: border-box;
-	padding-right: 1vw;
-	width: 20vw;
-	margin-left: -20vw;
-	font-weight: bold;
-	text-align: right;
-}
-
-#cv p, #cv ul, #cv li {
-	font-weight: Normal;
-	max-width: 70ch;
-}
-
-#cv ul {
-	list-style: none;
-	padding-left: 0;
-}
-
-#cv li ul {
-	padding-left: 3vw;
-	padding-top: 1.7;
-}
-
-#cv li ul li:before {
-    content: "—";
-    position: absolute;
-    margin-left: -3vw;
-}
-
-@media screen and (max-width: 900px) {
-
-	/**HEADER**/
-
-	.menuItem {
-		margin: 0 25% 0 0;
-		padding: 0;
-		float: left;
-	}
-
-	/**SUBHEADING**/
-	.arrow {
-		width: 80px;
-	}
-
-	/**PORTFOLIO LIST**/
-
-	.portfolioItem {
-		width: 98vw;
-		height: 75vw;
-	}
-
-	.projectName {
-		margin-top: 30vw;
-	}
-
-	/**PORTFOLIO PAGE**/
-
-	#description {
-		flex-direction: column;	
-	}
-
-	.bio, .perex {
-		width: 100%;
-	}
-
-	.perex {
-		margin-left: 0;
-	}
-
-	.bio {
-		margin-bottom: 3.4em;
-
-	}
-
-	.gallery.twoCol img {
-		width: 98vw;
-	}
-
-	/**CV**/
-	#cv {
-		width: 94vw;
-		margin: 0 3vw 0 3vw;
-	}
-
-	#cv li:before {
-		width: 1.5em;
-		margin-left: -1.5em;
-	}
-
-	#cv .rok {
-		width: 100%;
-		margin-left: 0;
-		text-align: left;
-	}
-
-	#cv li ul {
-		padding-left: 6vw;
-		padding-top: 1.7;
-	}
-
-	#cv li ul li:before {
-    	margin-left: -6vw;
-	}
-
-	/**TRADE INFO**/
-	#tradeInfo {
-		width: 94vw;
-		margin: 0 3vw 0 3vw;
-	}
 }

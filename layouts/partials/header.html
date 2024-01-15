@@ -1,8 +1,8 @@
-<div id="header" class="white">
-	<h1><a id="title" href="{{ .Site.BaseURL }}">still testing</a></h1>
-	<div id="menu">
-		<a class="menuItem" href="{{ .Site.BaseURL }}">portfolio</a>
-		<a class="menuItem" href='{{ ref . "kdoJsem.md" }}'>info</a>
-		<a class="menuItem" href='{{ ref . "contact.md" }}'>kontakt</a>
-	</div>
+<div class="header" class="white">
+	<a href="{{ .Site.BaseURL }}" class="title">Still </br>Testing</a>
+	<ul class="menu">
+		<li><a href="{{ .Site.BaseURL }}" class="menuItem">Práce</a></li>
+		<li><a href='{{ ref . "kdoJsem.md" }}' class="menuItem">Bio</a></li>
+		<li><a href='{{ ref . "contact.md" }}' class="menuItem">Kontakt</a></li>
+	</ul>
 </div>

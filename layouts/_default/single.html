@@ -2,25 +2,25 @@
 
 </head>
 
-<body>
+<body class="white">
 	{{ partial "header" . }}
-	<div id="description" class="white">
+	<h1>{{ .Title }}</h1>
 
-		<div class="bio">
-			<h2 id="projectName">{{ .Title }}</h2>
-
-			<h3 id="projectClient">klient: {{.Params.projectclient | markdownify}}</h3>
-			<h3 id="projectType">typ: {{.Params.projecttype}}</h3>
-			<h3 id="projectYear">rok: {{.Params.projectyear}}</h3>
+	<div class="module description">
+		<div class="info">
+			<p id="projectClient">klient: {{.Params.projectclient | markdownify}}</p>
+			<p id="projectType">typ: {{.Params.projecttype}}</p>
+			<p id="projectYear">rok: {{.Params.projectyear}}</p>
 		</div>
 
 		<div class="perex">
 			{{ .Content }}
 		</div>
+
 		<div style="clear: both;"></div>
 	</div>
 
-	<div class="gallery">
+	<div class="module gallery">
 		{{ $fileName := .File.TranslationBaseName }}
 		{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
 			<img loading="lazy" src="/images/portfolio/{{ $fileName }}/{{ .Name }}">

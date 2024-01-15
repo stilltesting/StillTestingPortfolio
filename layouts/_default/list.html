@@ -12,15 +12,15 @@
         </div>
 	</div>
 
-		<div id="portfolioList">
+		<div class="module portfolioList">
 			{{ range sort (where .Site.Pages ".Params.class" "portfolio") ".Params.index" "desc" }}
 			<div class="portfolioItem">
-				<a href="{{ .URL }}" class="portfolioLink black" style="background: url(/images/portfolio/ikony/{{ .File.TranslationBaseName }}.jpg) center center no-repeat; background-size: cover;">
+				<a href="{{ .Permalink }}" class="portfolioLink black" style="background: url(/images/portfolio/ikony/{{ .File.TranslationBaseName }}.jpg) center center no-repeat; background-size: cover;">
 					<span class="overlay">
-						<p>
-							<span class="projectName">{{ .Title }}</span> <br /> 
+						<!--<p>
+							<span class="projectName">{{ .Title }}</span>
 							<span class="projectType">{{.Params.projecttype}}</span>
-						</p>
+						</p>-->
 					</span>
 				</a>
 			</div>

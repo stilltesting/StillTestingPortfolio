@@ -1,6 +1,6 @@
 ---
 title: "Redesign časopisu Host"
-projectclient: "Časopis Host"
+projectclient: "Spolek přátel vydávání časopisu HOST"
 projecttype: "layout + vizuální styl + typografie"
 projectyear: "2023"
 class: "portfolio"
@@ -9,4 +9,4 @@ index: 28
 bgcolor: "#14141e"
 ---
 
-
+Po čtyřech ročnících setrvalé práce nad zrcadlem z ruky Martina Peciny jsem dostal za úkol časopis se stoletou tradicí od základu redesignovat. Monumentální titul je navržen z vlastního písma s mírně inverzním kontrastem.

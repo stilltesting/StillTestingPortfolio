@@ -2,16 +2,16 @@
 
 </head>
 
-<body>
+<body class="white">
 	{{ partial "header" . }}
-	<div id="description" class="white">
+	<h1>{{ .Title }}</h1>
 
-		<div class="bio">
-			<h2 id="projectName">{{ .Title }}</h2>
+	<div class="module description">
+		<div class="info">
 
-			<h3 id="projectClient">klient: {{.Params.projectclient}}</h3>
-			<h3 id="projectType">typ: {{.Params.projecttype}}</h3>
-			<h3 id="projectYear">rok: {{.Params.projectyear}}</h3>
+			<p id="projectClient">klient: {{.Params.projectclient | markdownify}}</p>
+			<p id="projectType">typ: {{.Params.projecttype}}</p>
+			<p id="projectYear">rok: {{.Params.projectyear}}</p>
 		</div>
 
 		<div class="perex">
@@ -22,7 +22,7 @@
 
 		{{ $bgcolor := .Params.bgcolor }}
 
-		<div class="gallery twoCol">
+		<div class="module gallery columns">
 			{{ $fileName := .File.TranslationBaseName }}
 			{{ range (readDir (print "/static/images/portfolio/" $fileName)) }}
 				{{ $imageExt := index (split .Name ".") 3 }}
