@@ -5,4 +5,4 @@ layout: "contact"
 ---
 
 
-# matej.malek<span class="italic lowercase medium">(at)</span>stilltesting.cz #
+# matej.malek<span class="italic lowercase normal">(at)</span>stilltesting.cz #
