@@ -345,8 +345,8 @@ a:hover .overlay {
 }
 
 #stillTestingLogo {
-	font-size: 20vw;
-	line-height: 20vw;
+	font-size: 22vw;
+	line-height: 22vw;
 	font-weight: normal;
 	padding: 0;
 	margin: 0;
@@ -375,7 +375,7 @@ a:hover .overlay {
 }
 
 #circles {
-	font-size: min(50vw, 80vh);
+	font-size: min(55vw, 80vh);
 	margin: 0;
 	padding: 0;
 }
