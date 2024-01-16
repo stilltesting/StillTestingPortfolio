@@ -183,7 +183,7 @@ p {
 .portfolioList {
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 2em) /5))), 1fr));
 	gap: 0.5em;
-	margin-top: 85vh;
+	margin-top: min(85vh, 150vw);
 }
 
 .portfolioItem {
@@ -319,7 +319,7 @@ a:hover .overlay {
 /**COVER**/
 #cover {
 	width: 100vw;
-	height: 85vh;
+	height: min(85vh, 150vw);
 
 	box-sizing: border-box;
 
@@ -331,7 +331,6 @@ a:hover .overlay {
 	justify-content: center;
 
 	margin: 0;
-	padding: 5vh 0 0 0;
 	background-color: #0000e4;
 
 	color: white;
@@ -366,10 +365,9 @@ a:hover .overlay {
 #background {
 	position: absolute;
 	box-sizing: border-box;
-	padding-top: 5vh;
 	top: 0;
 	width: 100vw;
-	height: 85vh;
+	height: min(85vh, 150vw);
 	color: #ff5e00;
 	display: flex;
 	align-items: center;
