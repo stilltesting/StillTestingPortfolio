@@ -89,9 +89,9 @@ p {
 }
 
 .projectName {
-	font-size: 2em;
+	font-size: 11cqw;
 	line-height: 1.2em;
-	font-variation-settings: "wght" 550;
+	font-variation-settings: "wght" 500;
 	margin-bottom: 0.2em;
 }
 
@@ -171,13 +171,13 @@ p {
 
 /** PORTFOLIO LIST **/
 .portfolioList {
-	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 1.5em) /4))), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, max(500px, calc((100% - 2em) /5))), 1fr));
 	gap: 0.5em;
 	margin-top: 90vh;
 }
 
 .portfolioItem {
-	width: 1fr;
+	width: 100%;
 	aspect-ratio: 1 / 1.1;
 }
 
@@ -200,6 +200,8 @@ p {
 	box-sizing: border-box;
 	padding: 3em;
 
+	container-type: size;
+
 	align-items: center;
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0);
@@ -220,7 +222,9 @@ a:hover .overlay {
 }
 
 .keyword {
-	font-size: 0.6em;
+	font-size: 4cqw;
+	line-height: 4cqw;
+	font-variation-settings: "wght" 475;
 
 	display: inline-block;
 	box-sizing: border-box;
@@ -228,7 +232,7 @@ a:hover .overlay {
 	background-color: var(--yellow);
 	color: var(--black);
 	
-	padding: 0.1em 0.5em 0em 0.5em;
+	padding: 0.8cqw 2cqw 0.2cqw 2cqw;
 	border-radius: 1em;
 }
 
