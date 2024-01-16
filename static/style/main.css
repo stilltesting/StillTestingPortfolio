@@ -254,6 +254,7 @@ a:hover .overlay {
 
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 /**TRADE INFO**/
