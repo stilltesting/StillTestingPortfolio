@@ -5,6 +5,7 @@ keywords:
 - obálka
 - typografie
 - sazba
+fontsused: "Atyp"
 projectyear: "2022"
 class: "portfolio"
 draft: false

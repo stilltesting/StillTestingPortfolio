@@ -1,6 +1,6 @@
 ---
 title: "Inspirace úspěšného lektora"
-projectclient: "KISK FF MU"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - obálka
 - typografie

@@ -1,11 +1,11 @@
 ---
 title: "Nehoupat"
 projectclient: "Nehoupat"
-projecttype: "logo + vizuální styl + web"
 keywords: 
 - logo
 - vizuální styl
 - web
+fontsused: "Ladislav"
 projectyear: "2018"
 class: "portfolio"
 draft: false

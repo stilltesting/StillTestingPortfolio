@@ -7,7 +7,7 @@ projectyear: "2013"
 class: "portfolio"
 draft: false
 index: 1
-layout: "single.2col"
+layout: "single.columns"
 bgcolor: "#333333"
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "kdo jsem"
+title: "bio"
 draft: false
-layout: "kdoJsem"
+layout: "bio"
 ---
 
 

@@ -5,6 +5,7 @@ keywords:
 - obálka
 - typografie
 - ilustrace
+fontsused: "Joe 182, Kunda Book"
 projectyear: "2021"
 class: "portfolio"
 draft: false

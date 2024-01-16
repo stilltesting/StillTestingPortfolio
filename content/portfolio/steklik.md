@@ -1,10 +1,11 @@
 ---
 title: "Steklík"
-projectclient: "Nakladatelství Host a&nbsp;Dům umění města Brna"
+projectclient: "Nakladatelství Host a\_Dům umění města Brna"
 keywords: 
 - obálka
 - typografie
 - sazba
+fontsused: "Atyp, Kunda Book"
 projectyear: "2021"
 class: "portfolio"
 draft: false

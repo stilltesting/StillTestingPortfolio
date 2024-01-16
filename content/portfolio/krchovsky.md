@@ -1,10 +1,11 @@
 ---
-title: "Už zase vyšlo slunce"
+title: "Už\_zase vyšlo slunce"
 projectclient: "Nakladatelství Host"
 keywords: 
 - obálka
 - typografie
 - sazba
+fontsused: "Epika Serif, Kunda Book"
 projectyear: "2022"
 class: "portfolio"
 draft: false

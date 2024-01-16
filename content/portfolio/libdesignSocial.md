@@ -1,10 +1,11 @@
 ---
-title: "Karty Libdesign pro sociální inovace"
-projectclient: "KISK FF MU"
+title: "Karty Libdesign pro\_sociální inovace"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - grafický design
 - typografie
 - ilustrace
+fontsused: "Urban Grotesk"
 projectyear: "2018"
 class: "portfolio"
 draft: false

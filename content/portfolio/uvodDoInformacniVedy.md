@@ -1,10 +1,11 @@
 ---
-title: "Úvod do informační vědy"
-projectclient: "KISK FF MU"
+title: "Úvod do\_informační vědy"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - obálka
 - typografie
 - sazba
+fontsused: "Urban Grotesk, Týfa Text Pro"
 projectyear: "2017"
 class: "portfolio"
 draft: false

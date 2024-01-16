@@ -1,12 +1,12 @@
 ---
-title: "Projekt One Word, Two Colors"
+title: "Projekt One\_Word, Two\_Colors"
 projectclient: "volná tvorba"
 keywords: 
 - typografie
 - volná grafika
 projectyear: "2015"
 class: "portfolio"
-layout: "single.2col"
+layout: "single.columns"
 draft: false
 index: 9
 bgcolor: "#000000"

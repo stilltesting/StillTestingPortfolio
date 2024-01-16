@@ -5,6 +5,7 @@ keywords:
 - layout 
 - vizuální styl
 - typografie
+fontsused: "Atyp, Kunda Book"
 projectyear: "2023"
 class: "portfolio"
 draft: false

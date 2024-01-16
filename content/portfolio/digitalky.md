@@ -1,10 +1,11 @@
 ---
 title: "Digitálky"
-projectclient: "Technické muzeum v Brně"
+projectclient: "Technické muzeum v\_Brně"
 keywords: 
 - obálka
 - typografie
 - sazba
+fontsused: "Urban Grotesk"
 projectyear: "2022"
 class: "portfolio"
 draft: false

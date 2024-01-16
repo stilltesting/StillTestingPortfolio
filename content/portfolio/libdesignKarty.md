@@ -1,6 +1,6 @@
 ---
-title: "Karty 35 metod pro lepší služby"
-projectclient: "KISK FF MU"
+title: "Karty 35\_metod pro\_lepší služby"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - grafický design
 - typografie

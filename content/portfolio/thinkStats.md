@@ -1,6 +1,6 @@
 ---
-title: "ThinkStats: Statistika a pravděpodobnost pro programátory"
-projectclient: "KISK FF MU"
+title: "ThinkStats: Statistika a\_pravděpodobnost pro\_programátory"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - obálka
 projectyear: "2014"

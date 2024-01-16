@@ -9,7 +9,7 @@ projectyear: "od 2016"
 class: "portfolio"
 draft: false
 index: 10
-layout: "single.2col"
+layout: "single.columns"
 bgcolor: "#333333"
 ---
 

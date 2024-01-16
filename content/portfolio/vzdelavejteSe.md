@@ -1,6 +1,6 @@
 ---
-title: "Vzdělávejte se po svém"
-projectclient: "KISK FF MU"
+title: "Vzdělávejte se po\_svém"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - obálka
 - typografie

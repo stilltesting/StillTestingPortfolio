@@ -4,6 +4,7 @@ projectclient: "Nakladatelství Host"
 keywords: 
 - obálka
 - typografie
+fontsused: "Ladislav, Tabac"
 projectyear: "2019"
 class: "portfolio"
 draft: false

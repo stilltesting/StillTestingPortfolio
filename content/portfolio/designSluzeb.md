@@ -1,6 +1,6 @@
 ---
-title: "K čemu je design služeb"
-projectclient: "KISK FF MU"
+title: "K\_čemu je design služeb"
+projectclient: "KISK\_FF\_MU"
 keywords: 
 - obálka
 - typografie

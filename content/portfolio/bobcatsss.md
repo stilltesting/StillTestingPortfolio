@@ -1,5 +1,5 @@
 ---
-title: "Sborník konference BOBCATSSS 2015"
+title: "Sborník konference BOBCATSSS\_2015"
 projectclient: "KISK FF MU"
 keywords: 
 - obálka
