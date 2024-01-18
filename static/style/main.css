@@ -109,6 +109,7 @@ p {
 	font-size: max(2.5em, 5.5vw);
 	max-width: none;
 	margin-bottom: 3em;
+	padding: 0;
 }
 
 .cv ul {
