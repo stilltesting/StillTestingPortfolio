@@ -13,4 +13,4 @@ index: 25
 bgcolor: "#14141e"
 ---
 
-Publikace mapuje zásahy do&nbsp;architektury, veřejného prostoru a&nbsp;urbanismu, které dělají města udržitelnějšími, příjemjnějšími pro život a&nbsp;schopnými čelit budoucím nástrahám a klimatickým změnám. 
+Publikace mapuje zásahy do&nbsp;architektury, veřejného prostoru a&nbsp;urbanismu, které dělají města udržitelnějšími, příjemnějšími pro život a&nbsp;schopnými čelit budoucím nástrahám a klimatickým změnám. 
