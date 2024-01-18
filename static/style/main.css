@@ -413,7 +413,7 @@ a:hover .overlay {
 	}
 
 	.tradeInfo {
-		width: 100%;
+		width: auto;
 		margin-left: 1em;
 	}
 }
