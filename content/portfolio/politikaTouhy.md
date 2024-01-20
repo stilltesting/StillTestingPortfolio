@@ -4,7 +4,6 @@ projectclient: "Nakladatelství Host"
 keywords: 
 - obálka
 - typografie
-- sazba
 fontsused: "Ladislav, Tabac, Urban Grotesk"
 projectyear: "2023"
 class: "portfolio"
