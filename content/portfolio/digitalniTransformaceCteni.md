@@ -1,5 +1,5 @@
 ---
-title: "Digitalní transformace čtení"
+title: "Digitalní trans\u00ADformace čtení"
 projectclient: "KISK MU"
 keywords: 
 - obálka

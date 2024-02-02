@@ -76,6 +76,8 @@ h1 {
 	max-width: 20ch;
 	margin: 3em auto 3em auto;
 	padding: 0 1em 0 1em;
+
+	hyphens: none;
 }
 
 h2 {
@@ -406,6 +408,7 @@ a:hover .overlay {
 
 	h1 {
 		margin: 4em auto 2em auto;
+		hyphens: manual;
 	}
 
 	.description {
