@@ -1,6 +1,6 @@
 ---
 title: "Digitalní trans\u00ADformace čtení"
-projectclient: "KISK MU"
+projectclient: "KISK MUNI"
 keywords: 
 - obálka
 - typografie
