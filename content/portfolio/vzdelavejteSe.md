@@ -8,7 +8,7 @@ keywords:
 - sazba
 projectyear: "2014"
 class: "portfolio"
-draft: false
+draft: true
 index: 2
 bgcolor: "#b3ffd0"
 ---

@@ -5,7 +5,7 @@ keywords:
 - obálka
 projectyear: "2014"
 class: "portfolio"
-draft: false
+draft: true
 index: 4
 bgcolor: "#6e00a1"
 ---
