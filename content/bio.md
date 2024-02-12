@@ -11,7 +11,7 @@ layout: "bio"
 
 <div class="module bio">
 	<div class="perex">
-		<p>Zaměřuji se na digitální i&nbsp;tištěnou typografii, zejména na grafickou úpravu knih a&nbsp;jiných publikací. Zabývám se ale i vizuálními styly a&nbsp;webovými stránkami. V&nbsp;doktorském studiu jsem se zaměřoval na typografii elektronických knih a možnosti jejich transformace do plně digitálního artefaktu. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU, v&nbsp;rámci doktorského studia jsem vyučoval typografii na Fakultě multimediálních komunikací Univerzity Tomáše Bati ve Zlíně a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
+		<p>Zaměřuji se na digitální i&nbsp;tištěnou typografii, zejména na grafickou úpravu knih a&nbsp;jiných publikací. Zabývám se ale i&nbsp;vizuálními styly a&nbsp;webovými stránkami. V&nbsp;doktorském studiu jsem se zaměřoval na typografii elektronických knih a&nbsp;možnosti jejich transformace do plně digitálního artefaktu. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU, v&nbsp;rámci doktorského studia jsem vyučoval typografii na Fakultě multimediálních komunikací Univerzity Tomáše Bati ve Zlíně a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
 	</div>
 <div class="cv">
 
