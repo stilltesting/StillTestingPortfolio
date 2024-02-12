@@ -11,20 +11,30 @@ layout: "bio"
 
 <div class="module bio">
 	<div class="perex">
-		<p>Jsem grafický designér na volné noze. Zabývám se primárně typografií a&nbsp;tvorbou tištěných publikací a&nbsp;knih, věnuji se ovšem též logům a&nbsp;vizuálním stylům, plakátům a&nbsp;dalším propagačním materiálům a&nbsp;okrajově i&nbsp;webům. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
+		<p>Zaměřuji se na digitální i&nbsp;tištěnou typografii, zejména na grafickou úpravu knih a&nbsp;jiných publikací. Zabývám se ale i vizuálními styly a&nbsp;webovými stránkami. V&nbsp;doktorském studiu jsem se zaměřoval na typografii elektronických knih a možnosti jejich transformace do plně digitálního artefaktu. V&nbsp;minulosti jsem externě spolupracoval na výuce tvorby písma a&nbsp;na fakultní písmolijně s&nbsp;ateliérem grafického designu Fakulty informatiky MU, v&nbsp;rámci doktorského studia jsem vyučoval typografii na Fakultě multimediálních komunikací Univerzity Tomáše Bati ve Zlíně a&nbsp;spolupodílel jsem se též na výuce vizualizace dat na Filozofické fakultě&nbsp;MU.</p>
 	</div>
 <div class="cv">
 
 ## Vzdělání ##
 
 ### 2018—2023 ###
-Fakulta multimediálních komunikací Univerzity Tomáše Bati&nbsp;— doktorský studijní program Výtvarná umění, disertační práce: Písmo a&nbsp;typografie v&nbsp;post-tiskovém prostředí (školitel: Pavel Noga) →&nbsp;[odkaz](https://digilib.k.utb.cz/bitstream/handle/10563/52436/m%C3%A1lek_2023_dp.pdf?sequence=-1)
+Fakulta multimediálních komunikací Univerzity Tomáše Bati&nbsp;— doktorský studijní program Výtvarná umění, disertační práce: *Písmo a&nbsp;typografie v&nbsp;post-tiskovém prostředí* (školitel: Pavel Noga) →&nbsp;[odkaz](https://digilib.k.utb.cz/bitstream/handle/10563/52436/m%C3%A1lek_2023_dp.pdf?sequence=-1)
 
 ### 2011—2014 ###
-Fakulta informatiky Masarykovy univerzity&nbsp;— navazující magisterský program Aplikovaná informatika se specializací Grafický design, diplomová práce: Čitelnost písma, návrh písma s&nbsp;vysokou čitelností a&nbsp;rasterizace fontů (vedoucí práce: Lukáš Pevný) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_m/malek-diplomova_prace.pdf)
+Fakulta informatiky Masarykovy univerzity&nbsp;— navazující magisterský program Aplikovaná informatika se specializací Grafický design, diplomová práce: *Čitelnost písma, návrh písma s&nbsp;vysokou čitelností a&nbsp;rasterizace fontů* (vedoucí práce: Lukáš Pevný) →&nbsp;[odkaz](https://is.muni.cz/th/256189/fi_m/malek-diplomova_prace.pdf)
 
 ### 2007—2011 ###
-Fakulta informatiky Masarykovy univerzity&nbsp;— bakalářský program Aplikovaná informatika se specializací Grafický design, bakalářská práce: Rekonstrukce a&nbsp;analýza benátské antikvy Nicolase Jensona (vedoucí práce: Vítězslav Švalbach) →&nbsp;[odkaz](https://is.muni.cz/th/hqzjg/text_BP.pdf)
+Fakulta informatiky Masarykovy univerzity&nbsp;— bakalářský program Aplikovaná informatika se specializací Grafický design, bakalářská práce: *Rekonstrukce a&nbsp;analýza benátské antikvy Nicolase Jensona* (vedoucí práce: Vítězslav Švalbach) →&nbsp;[odkaz](https://is.muni.cz/th/hqzjg/text_BP.pdf)
+
+## Publikace a&nbsp;projekty ##
+
+Zbiejczuk Suchá, Ladislava, Matěj Málek a&nbsp;Jan Martinek. *Digitální transformace čtení. Knihovní služby, prototypy, artefakty*. Brno: Masarykova univerzita, 2023. 251&nbsp;s. ISBN 978-80-280-0345-6. doi:[10.5817/CZ.MUNI.M280-0345-2023](http://dx.doi.org/10.5817/CZ.MUNI.M280-0345-2023).<br/><br/>
+
+Zbiejczuk Suchá, Ladislava, Roberto Cibin, Josef Kocurek, Jan Martinek, Matěj Málek, Vojtěch Vojtíšek a Jitka Bartošová. From undistracted to instant reading and back: Prototyping a new digital library service. *Qualitative and Quantitative Methods in Libraries*. 2022, roč. 11, č. 3, s. 553-572. ISSN 2241-1925. http://www.qqml.net/index.php/qqml/article/view/791 <br/><br/>
+
+Vojtíšek, Vojtěch, Jan Martinek, Matěj Málek, Josef Kocurek, Lukáš Porsche, Gabriela Godišková, Adéla Weidischová a&nbsp;Ladislava Zbiejczuk Suchá. *Sbírka webových knih (next-booků) pro Městskou knihovnu v&nbsp;Praze*. 2022.
+
+
 
 ## Pracovní zkušenosti ##
 
