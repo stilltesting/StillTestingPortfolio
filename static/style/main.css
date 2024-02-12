@@ -43,7 +43,7 @@ a.menuItem, a.title {
 /**TYPOGRAPHY**/
 h2, h3, p, ul, li {
 	font-size: 1em;
-	line-height: 1.3em;
+	line-height: 1.4em;
 
 	font-variation-settings: "wght" 550;
 }
