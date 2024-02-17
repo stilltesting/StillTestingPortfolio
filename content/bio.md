@@ -30,7 +30,7 @@ Fakulta informatiky Masarykovy univerzity&nbsp;— bakalářský program Aplikov
 
 Zbiejczuk Suchá, Ladislava, Matěj Málek a&nbsp;Jan Martinek. *Digitální transformace čtení. Knihovní služby, prototypy, artefakty*. Brno: Masarykova univerzita, 2023. 251&nbsp;s. ISBN 978-80-280-0345-6. doi:[10.5817/CZ.MUNI.M280-0345-2023](http://dx.doi.org/10.5817/CZ.MUNI.M280-0345-2023).<br/><br/>
 
-Zbiejczuk Suchá, Ladislava, Roberto Cibin, Josef Kocurek, Jan Martinek, Matěj Málek, Vojtěch Vojtíšek a Jitka Bartošová. From undistracted to instant reading and back: Prototyping a new digital library service. *Qualitative and Quantitative Methods in Libraries*. 2022, roč. 11, č. 3, s. 553-572. ISSN 2241-1925. http://www.qqml.net/index.php/qqml/article/view/791 <br/><br/>
+Zbiejczuk Suchá, Ladislava, Roberto Cibin, Josef Kocurek, Jan Martinek, Matěj Málek, Vojtěch Vojtíšek a Jitka Bartošová. From undistracted to instant reading and back: Prototyping a new digital library service. *Qualitative and Quantitative Methods in Libraries*. 2022, roč. 11, č. 3, s. 553-572. ISSN 2241-1925. [http://www.qqml.net/<wbr>index.php/<wbr>qqml/<wbr>article/<wbr>view/791](http://www.qqml.net/index.php/qqml/article/view/791) <br/><br/>
 
 Vojtíšek, Vojtěch, Jan Martinek, Matěj Málek, Josef Kocurek, Lukáš Porsche, Gabriela Godišková, Adéla Weidischová a&nbsp;Ladislava Zbiejczuk Suchá. *Sbírka webových knih (next-booků) pro Městskou knihovnu v&nbsp;Praze*. 2022.
 
