@@ -8,7 +8,7 @@ keywords:
 projectyear: "od 2016"
 class: "portfolio"
 draft: false
-index: 10
+index: 201601
 layout: "single.columns"
 bgcolor: "#333333"
 ---

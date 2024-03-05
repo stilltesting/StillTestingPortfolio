@@ -6,7 +6,7 @@ keywords:
 projectyear: "2013"
 class: "portfolio"
 draft: false
-index: 1
+index: 201301
 layout: "single.columns"
 bgcolor: "#333333"
 ---
