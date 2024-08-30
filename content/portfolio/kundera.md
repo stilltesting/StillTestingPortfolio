@@ -13,4 +13,4 @@ bgcolor: "#14141e"
 ---
 
 
-Biografie Milana Kundery znbsp;ruky rodinné přítelkyně Florence Noiville. Obálkou inbsp;vstupními stranami provází přímo ilustrace Milana Kundery doplněné onbsp;minimalistickou typografii anbsp;hru barevných ploch.
+Biografie Milana Kundery z&nbsp;pera rodinné přítelkyně Florence Noiville. Obálkou i&nbsp;vstupními stranami provází přímo ilustrace Milana Kundery doplněné o&nbsp;minimalistickou typografii a&nbsp;hru barevných ploch.
